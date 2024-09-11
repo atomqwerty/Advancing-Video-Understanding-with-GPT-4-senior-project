@@ -23,7 +23,7 @@ llm=ChatOpenAI()
 
 # Example usage
 if __name__ == "__main__":
-    video_path = 'Video\\Lecture 16.4 — The fog of progress — [ Deep Learning _ Geoffrey Hinton _ UofT ].mp4'
+    video_path = 'Video/Lecture 16.4.mp4'
     output_dir = 'clips/'
     json_path = 'Text_output\\json_transcript'
     prompt_path = 'Text_output\\promt'

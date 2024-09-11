@@ -1,0 +1,34 @@
+What is the title of the lecture?
+The title of the lecture is "Neural Networks for Machine Learning." This information is found in Scene 1, with a timestamp of 00:00:00.000 - 00:00:13.533.
+Sources: ['Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt']
+Why does the lecturer mention about driving a car?
+The lecturer mentions driving a car as an analogy to help explain the concept being discussed. The analogy of driving at night and looking at the tail lights of the car in front helps illustrate how the number of photons received from the tail lights falls off as the distance increases, similar to how the visibility decreases with distance in the scenario being described. The mention of driving a car serves to make the concept more relatable and easier to understand for the audience.
+
+The timestamp for this explanation is from 0:00:19 to 0:00:27 in the provided context.
+Sources: ['Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt']
+in scene 2 what formula do we have?
+In scene 2, the formula mentioned is "off as 1 over d squared, where d is the distance to the car in front." This formula is discussed between the timestamps 0:00:32 - 0:00:37.
+Sources: ['Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt']
+Who is the lecturer?
+The lecturer is Geoffrey Hinton. This can be inferred from the context provided in Scene 1 with the lecture title "Neural Networks for Machine Learning" and the speakers listed as Geoffrey Hinton, Nitish Srivastava, and Kevin Swersky. The timestamp for this information is 00:00:00.000 - 00:00:13.533.
+Sources: ['Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt']
+What is the effect of exponential progress?
+The effect of exponential progress is that technology development is typically exponential, and it can lead to exponential progress in the short run as well. This is mentioned in the scenes with timestamps 0:01:26 - 0:01:27 and 0:01:59 - 0:02:02, in Scene 3.
+Sources: ['Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt']
+Which part is mention about iphone6?
+Based on the provided context, the part that mentions the iPhone 6 is at the timestamp 0:01:40 - 0:01:45.
+Sources: ['Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt']
+When does he congratulate their student?
+He congratulates their students at timestamp 0:02:15 - 0:02:20. This can be found in the scene labeled "The effect of exponential progress."
+Sources: ['Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt']
+Summarize the scene 1
+Scene 1, which spans from timestamp 00:00:00.000 to 00:00:13.533, is titled "Neural Networks for Machine Learning." In this scene, Geoffrey Hinton, along with Nitish Srivastava and Kevin Swersky, discuss the concept of the fog of progress. The scene introduces the topic of exponential progress and sets the stage for further exploration into why we cannot predict the long-term future.
+Sources: ['Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt']
+Why they compare predict long-term future with the fog?
+Based on the provided context, the comparison between predicting the long-term future and fog was made because just like with fog, our perception of the future hits a wall in the longer run. This means that while it may be possible to predict short-term changes and progress, trying to make long-term predictions is likened to trying to see through fog - it becomes difficult or impossible. 
+
+The timestamp for this comparison is 0:01:45 - 0:01:48, and it is part of Scene 2 in the video.
+Sources: ['Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt']
+What period of time that we can predict?
+Based on the provided context, we can predict progress in the short run, specifically in a period of 3 to 10 years. This information is mentioned in the timestamps 0:02:02 - 0:02:07 and is part of Scene 2.
+Sources: ['Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt', 'Text_output\\promt.txt']

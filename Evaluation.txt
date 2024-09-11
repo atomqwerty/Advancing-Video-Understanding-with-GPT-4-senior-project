@@ -1,0 +1,60 @@
+Question 1
+Ground truth time: 0:00:00-0:00:13
+Anwser time: 00:00:00.000-00:00:13.533
+Intersection Over Union: 1.0
+Precision: 1.0
+Start Difference: 0:00:00
+Question 2
+Ground truth time: 0:00:19-0:01:24
+Anwser time: 0:00:19-0:00:27
+Intersection Over Union: 0.12307692307692308
+Precision: 1.0
+Start Difference: 0:00:00
+Question 3
+Ground truth time: 0:00:13-0:01:27
+Anwser time: 0:00:32-0:00:37
+Intersection Over Union: 0.06756756756756757
+Precision: 1.0
+Start Difference: 0:00:19
+Question 4
+Ground truth time: 0:00:00-0:00:13
+Anwser time: 00:00:00.000-00:00:13.533
+Intersection Over Union: 1.0
+Precision: 1.0
+Start Difference: 0:00:00
+Question 5
+Ground truth time: 0:01:27-0:02:24
+Anwser time: 0:01:26-0:01:27
+Intersection Over Union: 0.0
+Precision: 0.0
+Start Difference: 0:00:01
+Question 6
+Ground truth time: 0:01:36-0:01:43
+Anwser time: 0:01:40-0:01:45
+Intersection Over Union: 0.3333333333333333
+Precision: 0.6
+Start Difference: 0:00:04
+Question 7
+Ground truth time: 0:02:15-0:02:20
+Anwser time: 0:02:15-0:02:20
+Intersection Over Union: 1.0
+Precision: 1.0
+Start Difference: 0:00:00
+Question 8
+Ground truth time: 0:00:00-0:00:13
+Anwser time: 00:00:00.000-00:00:13.533
+Intersection Over Union: 1.0
+Precision: 1.0
+Start Difference: 0:00:00
+Question 9
+Ground truth time: 0:00:37-0:01:26
+Anwser time: 0:01:45-0:01:48
+Intersection Over Union: 0.2676056338028169
+Precision: 6.333333333333333
+Start Difference: 0:01:08
+Question 10
+Ground truth time: 0:02:04-0:02:06
+Anwser time: 0:02:02-0:02:07
+Intersection Over Union: 0.4
+Precision: 0.4
+Start Difference: 0:00:02
