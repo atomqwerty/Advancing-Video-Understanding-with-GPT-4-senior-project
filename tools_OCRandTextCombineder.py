@@ -8,7 +8,9 @@ import time
 #/ setting
 #/ snapped time between scene                                 
 snapping = 5                                     
-
+def write_txt(str,name):
+    with open(name+'.txt', 'w',encoding="utf-8") as f:
+        f.write(str) 
 def frame_extracter(video):
 
     frames = video.get(cv2.CAP_PROP_FRAME_COUNT) 
@@ -32,7 +34,7 @@ def cap_last_sec(frame):
     # Print the extracted text
     return text
 
-def clip_ocr(dir,result,scene_time_stamp):
+def clip_ocr(dir,result,scene_time_stamp,video_path,prompt_path):
     seconds = time.time()
     output = ''
     i=0
@@ -42,22 +44,25 @@ def clip_ocr(dir,result,scene_time_stamp):
     
     for name in os.listdir(dir):
     # Open file
+        n=0
         transcript=''
         with open(os.path.join(dir, name)) as f:
             video_crr = cv2.VideoCapture(dir+name)
             frame = frame_extracter(video_crr)
             content = cap_last_sec(frame)
 
-            str_crr = f"Scene: {i+1} " +f"timestamp: {scene_time_stamp[i][0]} - {scene_time_stamp[i][1]} "+'\n' + content + '\n'
+            str_crr = f"<course>\n<course-name>\n{video_path[1]}\n</course-name>\n<lecture>\n<lecture-name>\n{video_path[2]}\n</lecture-name>\n"+f"<scene number={i+1} " +f",start= {scene_time_stamp[i][0]} ,end= {scene_time_stamp[i][1]}> "+'\n<text>\n' + content +'\n</text>\n'
             for j in sentence :
+                n+=1
                 timestamp_start =j["start"]
                 timestamp_end =j["end"]
                 audio_log = j["text"]
                 if timestamp_start>= scene_time_stamp[i][0].get_seconds():
-                    transcript+="timestamp: "+str(datetime.timedelta(seconds=timestamp_start))+' - '+str(datetime.timedelta(seconds=timestamp_end))+"\n"+audio_log+"\n"
+                    transcript+=f"<utterance number= {n} start="+str(datetime.timedelta(seconds=timestamp_start))+' end= '+str(datetime.timedelta(seconds=timestamp_end))+"\n"+audio_log+"\n"
                 if timestamp_end>= scene_time_stamp[i][1].get_seconds():
                     break
-            str_crr+=f'ASR: {transcript}'
+            str_crr+=f'<utterances>\n {transcript}\n</utterance>\n</scene>\n</lecture>\n</course>'
+            write_txt(str_crr,f'{prompt_path}/{video_path[2]}-sc{i+1}')
             output = output + str_crr
         i+=1
     # write_txt(output,"test_script")

@@ -5,7 +5,6 @@ from langchain_community.chat_models import ChatOpenAI
 import tools_SceneDetector as T_sceneDet
 import tools_SpeechRecognitor as T_speechRec
 import tools_OCRandTextCombineder as T_OCR
-import tools_PromptGenerator as T_promptGen
 import Model 
 
 os.environ["OPENAI_API_KEY"] = key.API_KEY
@@ -23,12 +22,12 @@ llm=ChatOpenAI()
 
 # Example usage
 if __name__ == "__main__":
-    video_path = 'Video/Lecture 16.4.mp4'
+    video_path = 'Video/Neural Networks for Machine Learning/Lecture 1.1.mp4'
     output_dir = 'clips/'
     json_path = 'Text_output\\json_transcript'
-    prompt_path = 'Text_output\\promt'
+    prompt_path = 'Text_output'
 
-    test=True
+    test=False
     # Step 1: Scene Detection
     scenes = T_sceneDet.scene_detection(video_path)
     # print("Detected scenes:", scenes)
@@ -37,20 +36,20 @@ if __name__ == "__main__":
     clip_paths = T_sceneDet.split_video(video_path, scenes, output_dir)
 
     # Step 3: Speech Recognition using Whisper-Timestamped
-    # transcript = T_speechRec.speech_recognition(video_path, json_path)
+    transcript = T_speechRec.speech_recognition(video_path, json_path)
 
-    # Skip step 3
-    transcript = T_speechRec.skip_speech_recognition(json_path)
+    # # Skip step 3
+    # transcript = T_speechRec.skip_speech_recognition(json_path)
 
     # Step 4: Generate Clip Descriptions
-    clip_descriptions = T_OCR.clip_ocr(output_dir, transcript ,scenes)
+    clip_descriptions = T_OCR.clip_ocr(output_dir, transcript ,scenes,video_path.split('/'),prompt_path)
 
     print("Clip Descriptions:", clip_descriptions)
     # write_txt(clip_descriptions,"clip_descriptions")
     
     # Step 6: Create Persona
-    T_promptGen.generate_Persona_txt(clip_descriptions,prompt_path)
+    T_OCR.write_txt(clip_descriptions,prompt_path+'\\promt')
     # Step 7: Chat
-    Model.main("Text_output")
+    # Model.main("Text_output")
     # clear clips
     T_sceneDet.clear_dir(output_dir)

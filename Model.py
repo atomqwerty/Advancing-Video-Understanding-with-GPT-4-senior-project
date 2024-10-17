@@ -10,7 +10,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.messages import HumanMessage, SystemMessage
 import streamlit as st
 import key
-from tools_PromptGenerator import write_txt
+from tools_OCRandTextCombineder import write_txt
 import json
 from datetime import datetime,timedelta,time
 import re

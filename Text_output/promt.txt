@@ -1,8 +1,13 @@
-Your goal is to answer questions and timestamp of the answer that above by using the data that i will provide to you next.example of answer like question: What is neural network, answer: the neural network is A neural network is a computational model inspired by the structure and functioning of the human brain., timestamp:0:00:23example of answer like question: When is neural network, answer: the neural network in timestamp, timestamp:0:00:23
-
-
-
-Scene: 1 timestamp: 00:00:00.000 - 00:00:13.533 
+<course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 16.4.mp4
+</lecture-name>
+<scene number=1 ,start= 00:00:00.000 ,end= 00:00:13.533> 
+<text>
 Neural Networks for Machine Learning
 
 Lecture 16d
@@ -14,13 +19,28 @@ with
 Nitish Srivastava
 Kevin Swersky
 
-ASR: timestamp: 0:00:00 - 0:00:05
+</text>
+<utterances>
+ <utterance number= 1 start=0:00:00 end= 0:00:05
  In this final video, I was tempted to make some predictions about the future of
-timestamp: 0:00:05 - 0:00:10
+<utterance number= 2 start=0:00:05 end= 0:00:10
  research on neural networks. Instead, I'm going to explain to you why it
-timestamp: 0:00:10 - 0:00:14
+<utterance number= 3 start=0:00:10 end= 0:00:14
  would be extremely foolish to try and make any long-term predictions.
-Scene: 2 timestamp: 00:00:13.533 - 00:01:27.133 
+
+</utterance>
+</scene>
+</lecture>
+</course><course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 16.4.mp4
+</lecture-name>
+<scene number=2 ,start= 00:00:13.533 ,end= 00:01:27.133> 
+<text>
 Why we cannot predict the long-term future
 
 Consider driving at night. The number of photons you receive fram
@@ -35,43 +55,58 @@ fraction of the photons per unit distance
 So the car in front becomes gompletely invisible at a distance at
 which our short-range 1 / d~ model predicts it will be very visible.
 
-ASR: timestamp: 0:00:14 - 0:00:19
+</text>
+<utterances>
+ <utterance number= 4 start=0:00:14 end= 0:00:19
  I'm going to try and explain why we can't predict the long-term future by using an
-timestamp: 0:00:19 - 0:00:23
+<utterance number= 5 start=0:00:19 end= 0:00:23
  analogy. Imagine you're driving a car at night, and
-timestamp: 0:00:23 - 0:00:27
+<utterance number= 6 start=0:00:23 end= 0:00:27
  you're looking at the tail lights of the car in front.
-timestamp: 0:00:27 - 0:00:32
+<utterance number= 7 start=0:00:27 end= 0:00:32
  The number of photons that you receive from the tail lights of the car in front falls
-timestamp: 0:00:32 - 0:00:37
+<utterance number= 8 start=0:00:32 end= 0:00:37
  off as 1 over d squared, where d is the distance to the car in front.
-timestamp: 0:00:37 - 0:00:42
+<utterance number= 9 start=0:00:37 end= 0:00:42
  That's assuming that the air is clear. And now suppose there's fog.
-timestamp: 0:00:42 - 0:00:47
+<utterance number= 10 start=0:00:42 end= 0:00:47
  Over short ranges, the number of photons you get from the tail lights in front of
-timestamp: 0:00:47 - 0:00:52
+<utterance number= 11 start=0:00:47 end= 0:00:52
  you still falls off as 1 over d squared. Because over a short range, the fog hardly
-timestamp: 0:00:52 - 0:00:57
+<utterance number= 12 start=0:00:52 end= 0:00:57
  absorbs any light. But for large distances, it falls off as e to the minus d.
-timestamp: 0:00:57 - 0:01:00
+<utterance number= 13 start=0:00:57 end= 0:01:00
  And that's because fog has an exponential effect.
-timestamp: 0:01:00 - 0:01:05
+<utterance number= 14 start=0:01:00 end= 0:01:05
  Fog absorbs a certain fraction of the photons per unit distance.
-timestamp: 0:01:05 - 0:01:10
+<utterance number= 15 start=0:01:05 end= 0:01:10
  So for small distances, fog looks very transparent. But for large distances, it
-timestamp: 0:01:10 - 0:01:14
+<utterance number= 16 start=0:01:10 end= 0:01:14
  looks very opaque. So the car in front of us becomes
-timestamp: 0:01:14 - 0:01:19
+<utterance number= 17 start=0:01:14 end= 0:01:19
  completely invisible at a distance which our short range model, the 1 over d
-timestamp: 0:01:19 - 0:01:22
+<utterance number= 18 start=0:01:19 end= 0:01:22
  squared model, predicts it will be very visible.
-timestamp: 0:01:22 - 0:01:26
+<utterance number= 19 start=0:01:22 end= 0:01:26
  That causes people to drive into the back of cars in fog.
-timestamp: 0:01:26 - 0:01:27
+<utterance number= 20 start=0:01:26 end= 0:01:27
  It kills people.
-timestamp: 0:01:27 - 0:01:31
+<utterance number= 21 start=0:01:27 end= 0:01:31
  The development of technology is also typically exponential.
-Scene: 3 timestamp: 00:01:27.133 - 00:02:24.800 
+
+</utterance>
+</scene>
+</lecture>
+</course><course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 16.4.mp4
+</lecture-name>
+<scene number=3 ,start= 00:01:27.133 ,end= 00:02:24.800> 
+<text>
 The effect of exponential progress
 
 Over the short term, things + So the long term future of
@@ -87,29 +122,36 @@ perception of the future hits a things.
 
 wall, just like fog.
 
-ASR: timestamp: 0:01:31 - 0:01:36
+</text>
+<utterances>
+ <utterance number= 22 start=0:01:31 end= 0:01:36
  So over the short term, things appear to change fairly slowly and it's easy to
-timestamp: 0:01:36 - 0:01:40
+<utterance number= 23 start=0:01:36 end= 0:01:40
  predict progress. All of us, for example, can probably make quite good guesses
-timestamp: 0:01:40 - 0:01:45
+<utterance number= 24 start=0:01:40 end= 0:01:45
  about what will be in the iPhone 6. But in the longer run, our perception of the
-timestamp: 0:01:45 - 0:01:48
+<utterance number= 25 start=0:01:45 end= 0:01:48
  future hits a wall, just like with fog.
-timestamp: 0:01:48 - 0:01:53
+<utterance number= 26 start=0:01:48 end= 0:01:53
  So the long term future of machine learning and neural nets is really a total mystery.
-timestamp: 0:01:53 - 0:01:56
+<utterance number= 27 start=0:01:53 end= 0:01:56
  We've no idea what's going to happen in 30 years time.
-timestamp: 0:01:56 - 0:01:59
+<utterance number= 28 start=0:01:56 end= 0:01:59
  There's just no way to predict it from what we know now.
-timestamp: 0:01:59 - 0:02:02
+<utterance number= 29 start=0:01:59 end= 0:02:02
  Because we're going to get exponential progress.
-timestamp: 0:02:02 - 0:02:07
+<utterance number= 30 start=0:02:02 end= 0:02:07
  In the short run, however, in a period of, say, 3 to 10 years, we can predict it
-timestamp: 0:02:07 - 0:02:10
+<utterance number= 31 start=0:02:07 end= 0:02:10
  fairly well. And it seems obvious to me that over the
-timestamp: 0:02:10 - 0:02:15
+<utterance number= 32 start=0:02:10 end= 0:02:15
  next 5 years or so, big deep neural networks are going to do amazing things.
-timestamp: 0:02:15 - 0:02:20
+<utterance number= 33 start=0:02:15 end= 0:02:20
  I'd like to congratulate all of you who stuck it out long enough to get this far.
-timestamp: 0:02:20 - 0:02:25
+<utterance number= 34 start=0:02:20 end= 0:02:25
  I hope you've enjoyed the course and good luck with the final test.
+
+</utterance>
+</scene>
+</lecture>
+</course>
