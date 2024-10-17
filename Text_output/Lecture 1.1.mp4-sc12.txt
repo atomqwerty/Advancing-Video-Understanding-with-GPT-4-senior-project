@@ -1,0 +1,42 @@
+<course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=12 ,start= 00:10:54.467 ,end= 00:11:55.667> 
+<text>
+Some examples from an earlier version of the net
+
+
+</text>
+<utterances>
+ <utterance number= 158 start=0:11:04 end= 0:11:14
+ of binary neurons to take some acoustic frames and make bets about the labels.
+<utterance number= 159 start=0:11:14 end= 0:11:18
+ They were doing it on a fairly small database, and they only used 183 alternative
+<utterance number= 160 start=0:11:18 end= 0:11:19
+ labels.
+<utterance number= 161 start=0:11:19 end= 0:11:22
+ And to get their system to work well, they did some pre-training, which will be
+<utterance number= 162 start=0:11:22 end= 0:11:25
+ described in the second half of the course.
+<utterance number= 163 start=0:11:25 end= 0:11:31
+ After standard post-processing, they got 20.7% error rate on a very standard
+<utterance number= 164 start=0:11:31 end= 0:11:35
+ benchmark, which is kind of like the MNIST for speech.
+<utterance number= 165 start=0:11:35 end= 0:11:40
+ The best previous result on that benchmark for speaker independent recognition was
+<utterance number= 166 start=0:11:40 end= 0:11:47
+ 24.4%. And a very experienced speech researcher at Microsoft Research realized that that was a big enough
+<utterance number= 167 start=0:11:47 end= 0:11:55
+ improvement that probably this would change the way speech recognition systems were done, and indeed it has.
+<utterance number= 168 start=0:11:55 end= 0:12:06
+ So if you look at recent results from several different leading speech groups, Microsoft showed that this kind of deep
+
+</utterance>
+</scene>
+</lecture>
+</course>

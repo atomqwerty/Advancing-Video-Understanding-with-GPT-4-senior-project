@@ -1,0 +1,58 @@
+<course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 16.4.mp4
+</lecture-name>
+<scene number=3 ,start= 00:01:27.133 ,end= 00:02:24.800> 
+<text>
+The effect of exponential progress
+
+Over the short term, things + So the long term future of
+change siowly and its easy to machine learning and neural
+predict progress. nets is a total mystery.
+
+— We can all make quite - But over the next five
+good guesses about what years, its highly probable
+will be in the iPhone 6. that big, deep neural
+
+But in the longer run our networks will do amazing
+perception of the future hits a things.
+
+wall, just like fog.
+
+</text>
+<utterances>
+ <utterance number= 22 start=0:01:31 end= 0:01:36
+ So over the short term, things appear to change fairly slowly and it's easy to
+<utterance number= 23 start=0:01:36 end= 0:01:40
+ predict progress. All of us, for example, can probably make quite good guesses
+<utterance number= 24 start=0:01:40 end= 0:01:45
+ about what will be in the iPhone 6. But in the longer run, our perception of the
+<utterance number= 25 start=0:01:45 end= 0:01:48
+ future hits a wall, just like with fog.
+<utterance number= 26 start=0:01:48 end= 0:01:53
+ So the long term future of machine learning and neural nets is really a total mystery.
+<utterance number= 27 start=0:01:53 end= 0:01:56
+ We've no idea what's going to happen in 30 years time.
+<utterance number= 28 start=0:01:56 end= 0:01:59
+ There's just no way to predict it from what we know now.
+<utterance number= 29 start=0:01:59 end= 0:02:02
+ Because we're going to get exponential progress.
+<utterance number= 30 start=0:02:02 end= 0:02:07
+ In the short run, however, in a period of, say, 3 to 10 years, we can predict it
+<utterance number= 31 start=0:02:07 end= 0:02:10
+ fairly well. And it seems obvious to me that over the
+<utterance number= 32 start=0:02:10 end= 0:02:15
+ next 5 years or so, big deep neural networks are going to do amazing things.
+<utterance number= 33 start=0:02:15 end= 0:02:20
+ I'd like to congratulate all of you who stuck it out long enough to get this far.
+<utterance number= 34 start=0:02:20 end= 0:02:25
+ I hope you've enjoyed the course and good luck with the final test.
+
+</utterance>
+</scene>
+</lecture>
+</course>

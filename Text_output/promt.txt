@@ -1,12 +1,17 @@
-Your goal is to answer questions and timestamp of the answer that above by using the data that i will provide to you next.example of answer like question: What is neural network, answer: the neural network is A neural network is a computational model inspired by the structure and functioning of the human brain., timestamp:0:00:23example of answer like question: When is neural network, answer: the neural network in timestamp, timestamp:0:00:23
-
-
-
-Scene: 1 timestamp: 00:00:00.000 - 00:00:13.533 
+<course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=1 ,start= 00:00:00.000 ,end= 00:00:20.533> 
+<text>
 Neural Networks for Machine Learning
 
-Lecture 16d
-The fog of progress
+Lecture 1a
+Why do we need machine learning?
 
 Geoffrey Hinton
 with
@@ -14,102 +19,738 @@ with
 Nitish Srivastava
 Kevin Swersky
 
-ASR: timestamp: 0:00:00 - 0:00:05
- In this final video, I was tempted to make some predictions about the future of
-timestamp: 0:00:05 - 0:00:10
- research on neural networks. Instead, I'm going to explain to you why it
-timestamp: 0:00:10 - 0:00:14
- would be extremely foolish to try and make any long-term predictions.
-Scene: 2 timestamp: 00:00:13.533 - 00:01:27.133 
-Why we cannot predict the long-term future
 
-Consider driving at night. The number of photons you receive fram
-the tail-lights of the car in front falls off as I Id?
-Now suppose there is fog.
+</text>
+<utterances>
+ <utterance number= 1 start=0:00:00 end= 0:00:04
+ Hello. Welcome to the Coursera course on neural
+<utterance number= 2 start=0:00:04 end= 0:00:09
+ networks for machine learning. Before we get into the details of neural
+<utterance number= 3 start=0:00:09 end= 0:00:14
+ network learning algorithms, I want to talk a little bit about machine learning,
+<utterance number= 4 start=0:00:14 end= 0:00:19
+ why we need machine learning, the kinds of things we use it for, and show you some
+<utterance number= 5 start=0:00:19 end= 0:00:24
+ examples of what it can do. So, the reason we need machine learning is
 
-= For small distances its stil 1/d?
+</utterance>
+</scene>
+</lecture>
+</course><course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=2 ,start= 00:00:20.533 ,end= 00:01:18.400> 
+<text>
+It makes some really cool errors
 
-— But for big distances its exp(-d) because fog absorbs a certain
-fraction of the photons per unit distance
+barber chair
 
-So the car in front becomes gompletely invisible at a distance at
-which our short-range 1 / d~ model predicts it will be very visible.
 
-ASR: timestamp: 0:00:14 - 0:00:19
- I'm going to try and explain why we can't predict the long-term future by using an
-timestamp: 0:00:19 - 0:00:23
- analogy. Imagine you're driving a car at night, and
-timestamp: 0:00:23 - 0:00:27
- you're looking at the tail lights of the car in front.
-timestamp: 0:00:27 - 0:00:32
- The number of photons that you receive from the tail lights of the car in front falls
-timestamp: 0:00:32 - 0:00:37
- off as 1 over d squared, where d is the distance to the car in front.
-timestamp: 0:00:37 - 0:00:42
- That's assuming that the air is clear. And now suppose there's fog.
-timestamp: 0:00:42 - 0:00:47
- Over short ranges, the number of photons you get from the tail lights in front of
-timestamp: 0:00:47 - 0:00:52
- you still falls off as 1 over d squared. Because over a short range, the fog hardly
-timestamp: 0:00:52 - 0:00:57
- absorbs any light. But for large distances, it falls off as e to the minus d.
-timestamp: 0:00:57 - 0:01:00
- And that's because fog has an exponential effect.
-timestamp: 0:01:00 - 0:01:05
- Fog absorbs a certain fraction of the photons per unit distance.
-timestamp: 0:01:05 - 0:01:10
- So for small distances, fog looks very transparent. But for large distances, it
-timestamp: 0:01:10 - 0:01:14
- looks very opaque. So the car in front of us becomes
-timestamp: 0:01:14 - 0:01:19
- completely invisible at a distance which our short range model, the 1 over d
-timestamp: 0:01:19 - 0:01:22
- squared model, predicts it will be very visible.
-timestamp: 0:01:22 - 0:01:26
- That causes people to drive into the back of cars in fog.
-timestamp: 0:01:26 - 0:01:27
- It kills people.
-timestamp: 0:01:27 - 0:01:31
- The development of technology is also typically exponential.
-Scene: 3 timestamp: 00:01:27.133 - 00:02:24.800 
-The effect of exponential progress
+</text>
+<utterances>
+ <utterance number= 6 start=0:00:24 end= 0:00:29
+ that there's some problems where it's very hard to write the programs.
+<utterance number= 7 start=0:00:29 end= 0:00:33
+ Recognizing a three-dimensional object, for example, when it's from a novel
+<utterance number= 8 start=0:00:33 end= 0:00:38
+ viewpoint in new lighting conditions in a cluttered scene is very hard to do.
+<utterance number= 9 start=0:00:38 end= 0:00:42
+ We don't know what program to write because we don't know how it's done in
+<utterance number= 10 start=0:00:42 end= 0:00:45
+ our brain. And even if we did know what program to
+<utterance number= 11 start=0:00:45 end= 0:00:50
+ write, it might be that it was a horrendously complicated program.
+<utterance number= 12 start=0:00:50 end= 0:00:55
+ Another example is detecting a fraudulent credit card transaction, where there may
+<utterance number= 13 start=0:00:55 end= 0:00:59
+ not be any nice simple rules that will tell you it's fraudulent.
+<utterance number= 14 start=0:00:59 end= 0:01:05
+ You really need to combine a very large number of not very reliable rules.
+<utterance number= 15 start=0:01:05 end= 0:01:10
+ And also, those rules change over time because people change the tricks they use
+<utterance number= 16 start=0:01:10 end= 0:01:13
+ for fraud. So, we need a complicated program that
+<utterance number= 17 start=0:01:13 end= 0:01:17
+ combines unreliable rules and that we can change easily.
+<utterance number= 18 start=0:01:17 end= 0:01:23
+ The machine learning approach is to say instead of writing each program by hand
 
-Over the short term, things + So the long term future of
-change siowly and its easy to machine learning and neural
-predict progress. nets is a total mystery.
+</utterance>
+</scene>
+</lecture>
+</course><course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=3 ,start= 00:01:18.400 ,end= 00:02:22.200> 
+<text>
+The Speech Recognition Task
 
-— We can all make quite - But over the next five
-good guesses about what years, its highly probable
-will be in the iPhone 6. that big, deep neural
++ Aspeech recognition system has several stages:
 
-But in the longer run our networks will do amazing
-perception of the future hits a things.
+— Pre-pracessing: Convert the sound wave into a vector of acoustic
+coefficients. Extract a new vector about every 10 mille seconds.
+— The acoustic model: Use a few adjacent vectors of acoustic coefficients
+to place bets on which part of which phoneme is being spoken
+— Decoding: Find the sequence of bets that does the best job of fitting the
+acoustic data and also fitting a model of the kinds of things people say.
++ Deep neural networks pioneered by George Dahl and Abdel-rahman
+Mohamed are now replacing the previous machine learning method
+for the acoustic model.
 
-wall, just like fog.
+</text>
+<utterances>
+ <utterance number= 19 start=0:01:23 end= 0:01:28
+ for each specific task, for a particular task we'll collect a lot of examples that
+<utterance number= 20 start=0:01:29 end= 0:01:32
+ specify the correct output for a given input.
+<utterance number= 21 start=0:01:32 end= 0:01:37
+ A machine learning algorithm then takes these examples and produces a program that
+<utterance number= 22 start=0:01:37 end= 0:01:41
+ does the job. The program produced by the learning
+<utterance number= 23 start=0:01:41 end= 0:01:46
+ algorithm may look very different from a typical handwritten program.
+<utterance number= 24 start=0:01:46 end= 0:01:49
+ For example, it might contain millions of numbers about how you weight different
+<utterance number= 25 start=0:01:49 end= 0:01:54
+ kinds of evidence. If we do it right, the program should work
+<utterance number= 26 start=0:01:54 end= 0:01:57
+ for new cases as well as the ones it's trained on.
+<utterance number= 27 start=0:01:57 end= 0:01:59
+ And if the data changes, it might be that the program is not working for new cases
+<utterance number= 28 start=0:01:59 end= 0:02:02
+ as well as the ones it's trained on. So, if the data changes, we should be able
+<utterance number= 29 start=0:02:02 end= 0:02:07
+ to change the program relatively easily by retraining it on the new data.
+<utterance number= 30 start=0:02:07 end= 0:02:12
+ And now, massive amounts of computation are cheaper than paying someone to write a
+<utterance number= 31 start=0:02:12 end= 0:02:17
+ program for a specific task. So, we can afford big complicated machine
+<utterance number= 32 start=0:02:17 end= 0:02:23
+ learning programs to produce these task specific systems for us.
 
-ASR: timestamp: 0:01:31 - 0:01:36
- So over the short term, things appear to change fairly slowly and it's easy to
-timestamp: 0:01:36 - 0:01:40
- predict progress. All of us, for example, can probably make quite good guesses
-timestamp: 0:01:40 - 0:01:45
- about what will be in the iPhone 6. But in the longer run, our perception of the
-timestamp: 0:01:45 - 0:01:48
- future hits a wall, just like with fog.
-timestamp: 0:01:48 - 0:01:53
- So the long term future of machine learning and neural nets is really a total mystery.
-timestamp: 0:01:53 - 0:01:56
- We've no idea what's going to happen in 30 years time.
-timestamp: 0:01:56 - 0:01:59
- There's just no way to predict it from what we know now.
-timestamp: 0:01:59 - 0:02:02
- Because we're going to get exponential progress.
-timestamp: 0:02:02 - 0:02:07
- In the short run, however, in a period of, say, 3 to 10 years, we can predict it
-timestamp: 0:02:07 - 0:02:10
- fairly well. And it seems obvious to me that over the
-timestamp: 0:02:10 - 0:02:15
- next 5 years or so, big deep neural networks are going to do amazing things.
-timestamp: 0:02:15 - 0:02:20
- I'd like to congratulate all of you who stuck it out long enough to get this far.
-timestamp: 0:02:20 - 0:02:25
- I hope you've enjoyed the course and good luck with the final test.
+</utterance>
+</scene>
+</lecture>
+</course><course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=4 ,start= 00:02:22.200 ,end= 00:03:27.533> 
+<text>
+Phone recognition on the TIMIT benchmark
+(Mohamed, Dahl, & Hinton, 2012)
+
+183 HMM-state labels
+not pre-trained
+2000 logistic hidden units
+
+5 more layers of
+pre-trained weights !
+
+2000 logistic hidden units
+
+2000 logstic hidden units
+
+15 frames of 40 filterbank outputs
++ their temporal derivatives
+
+— After standard post-processing
+using a bi-phone model, a deep
+net with 8 layers gets 20.7% error
+rate.
+
+— The dest previous speaker-
+independent result on TIMIT was
+24.4% and this required averaging
+several models.
+
+— Li Deng (at MSR) realised that this
+result could change the way
+speech recognition was done.
+
+</text>
+<utterances>
+ <utterance number= 33 start=0:02:23 end= 0:02:27
+ Some examples of the things that are best done by using a learning algorithm are
+<utterance number= 34 start=0:02:27 end= 0:02:29
+ recognizing data.
+<utterance number= 35 start=0:02:29 end= 0:02:33
+ There's also recognizing patterns. So, for example, objects in real scenes.
+<utterance number= 36 start=0:02:33 end= 0:02:37
+ Or the identities or expressions of people's faces.
+<utterance number= 37 start=0:02:37 end= 0:02:44
+ Or spoken words. There's also recognizing anomalies.
+<utterance number= 38 start=0:02:44 end= 0:02:49
+ So, an unusual sequence of credit card transactions would be an anomaly.
+<utterance number= 39 start=0:02:49 end= 0:02:54
+ Another example of an anomaly would be an unusual pattern of sensor readings in a
+<utterance number= 40 start=0:02:54 end= 0:02:57
+ nuclear power plant. And you wouldn't really want to have to
+<utterance number= 41 start=0:02:57 end= 0:02:59
+ deal with those by doing sequence analysis.
+<utterance number= 42 start=0:02:59 end= 0:03:02
+ And then there's supervised learning where you look at the ones that blow up
+<utterance number= 43 start=0:03:02 end= 0:03:06
+ and see what, what caused them to blow up. You'd really like to recognize that
+<utterance number= 44 start=0:03:06 end= 0:03:10
+ something funny is happening without having any supervision signal.
+<utterance number= 45 start=0:03:10 end= 0:03:15
+ It's just not behaving in its normal way. And then there's prediction.
+<utterance number= 46 start=0:03:15 end= 0:03:20
+ So, typically predicting future stock prices or currency exchange rates.
+<utterance number= 47 start=0:03:20 end= 0:03:24
+ Or predicting which movies a person will like from knowing which other movies they
+<utterance number= 48 start=0:03:24 end= 0:03:27
+ like and which movies a lot of other people liked.
+<utterance number= 49 start=0:03:27 end= 0:03:33
+ So, in this course, I'm going to use a standard example for explaining a lot of
+
+</utterance>
+</scene>
+</lecture>
+</course><course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=5 ,start= 00:03:27.533 ,end= 00:04:29.867> 
+<text>
+Word error rates from MSR, IBM, & Google
+(Hinton et. al. IEEE Signal Processing Magazine, Nov 2012)
+
+The task Hours of Deep neural Gaussian GMM with
+
+training data network Mixture more data
+Model
+
+Switehboard 308 18.5% 27.4% 18.6%
+
+(Microsoft {2000 hrs)
+
+Research}
+
+English broadcast $0 17.5% 18.8%
+
+news (IBM)
+
+Google voice 5.870 12.3% 16.0%
+
+search (and fating) (295,870 hrs)
+
+(android 4.1)
+
+</text>
+<utterances>
+ <utterance number= 50 start=0:03:33 end= 0:03:38
+ the machine learning algorithms. This is done in a lot of science.
+<utterance number= 51 start=0:03:38 end= 0:03:43
+ In genetics, for example, a lot of genetics is done on fruit flies.
+<utterance number= 52 start=0:03:43 end= 0:03:47
+ And the reason is they're convenient. They breed fast.
+<utterance number= 53 start=0:03:47 end= 0:03:51
+ And a lot is already known about the genetics of fruit flies.
+<utterance number= 54 start=0:03:51 end= 0:03:57
+ The MNIST database of handwritten digits is the machine learning algorithm that
+<utterance number= 55 start=0:03:57 end= 0:04:00
+ is the machine learning equivalent of fruit flies.
+<utterance number= 56 start=0:04:00 end= 0:04:05
+ It's publicly available. We can get machine learning algorithms to
+<utterance number= 57 start=0:04:05 end= 0:04:09
+ learn how to recognize these handwritten digits quite quickly.
+<utterance number= 58 start=0:04:09 end= 0:04:14
+ So, it's easy to try lots of variations. And we know huge amounts about how well
+<utterance number= 59 start=0:04:14 end= 0:04:17
+ different machine learning methods do on MNIST.
+<utterance number= 60 start=0:04:17 end= 0:04:21
+ And in particular, the different machine learning methods were implemented by
+<utterance number= 61 start=0:04:21 end= 0:04:25
+ people who believed in them. So, we can rely on those results.
+<utterance number= 62 start=0:04:25 end= 0:04:29
+ So, for all those reasons, we're going to use MNIST as our standard task.
+<utterance number= 63 start=0:04:29 end= 0:04:34
+ Here's an example of some of the digits in MNIST.
+
+</utterance>
+</scene>
+</lecture>
+</course><course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=6 ,start= 00:04:29.867 ,end= 00:05:39.867> 
+<text>
+What is Machine Learning?
+
+Its very hard to write programs that solve problems like recognizing a
+three-dimensional abject from a novel viewpoint in new lighting
+conditions in a cluttered scene.
+— We don’ t know what program to write because we don’ t know
+how its done in our brain
+— Even if we had a good idea about how to do it, the program might
+be horrendously complicated.
+
+Its hard to write a program te compute the probability that a credit
+card transaction is fraudulent.
+
+— There may not be any rules that are both simple and reliable. We
+need to combine a very large number of weak rules.
+
+— Fraud is a moving target. The program needs to keep changing.
+
+</text>
+<utterances>
+ <utterance number= 64 start=0:04:34 end= 0:04:39
+ These are ones that were correctly recognized by neural net the first time it
+<utterance number= 65 start=0:04:39 end= 0:04:43
+ saw them. But they're ones where the neural net
+<utterance number= 66 start=0:04:43 end= 0:04:46
+ wasn't very confident. And you can see why.
+<utterance number= 67 start=0:04:46 end= 0:04:51
+ I've arranged these digits in standard scanline order.
+<utterance number= 68 start=0:04:51 end= 0:04:54
+ So, zeros, then ones, then twos, and so on.
+<utterance number= 69 start=0:04:54 end= 0:04:59
+ If you look at a bunch of twos, like the ones in the green rectangle, you can see
+<utterance number= 70 start=0:04:59 end= 0:05:04
+ that if you knew they were a handwritten digit, you'd probably guess they were
+<utterance number= 71 start=0:05:04 end= 0:05:07
+ twos. But it's very hard to say what it is that
+<utterance number= 72 start=0:05:07 end= 0:05:10
+ makes them twos. There's nothing simple that they all have
+<utterance number= 73 start=0:05:10 end= 0:05:13
+ in common. In particular, if you try and overlay one
+<utterance number= 74 start=0:05:13 end= 0:05:18
+ on another, you'll see it doesn't fit. And even if you skew it a bit, it's very
+<utterance number= 75 start=0:05:18 end= 0:05:23
+ hard to make them overlay on each other. So, a template isn't going to do the job.
+<utterance number= 76 start=0:05:23 end= 0:05:24
+ And in particular, if you try and overlay one on another, you'll see it doesn't fit.
+<utterance number= 77 start=0:05:24 end= 0:05:28
+ And in particular, a template is going to be very hard to find that'll fit those
+<utterance number= 78 start=0:05:28 end= 0:05:33
+ twos in the green box and won't also fit the things in the red boxes.
+<utterance number= 79 start=0:05:33 end= 0:05:38
+ So, that's one thing that makes recognizing handwritten digits a good task for machine
+<utterance number= 80 start=0:05:38 end= 0:05:41
+ learning. Now, I don't want you to think that's the
+
+</utterance>
+</scene>
+</lecture>
+</course><course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=7 ,start= 00:05:39.867 ,end= 00:06:57.867> 
+<text>
+The Machine Learning Approach
+
++ Instead of writing a program by hand for each specific task, we collect
+lots of examples that specify the correct output for a given input.
+
+« Amachine leaming algorithm then takes these examples and produces
+a program that does the job.
+
+— The program produced by the learning algorithm may look very
+different from a typical hand-written program. I{ may contain millions
+of numbers.
+
+— If we do it right, the program works for new cases as well as the ones
+we trained it on.
+
+— If the data changes the program can change too by training on the
+new data
+
++ Massive amounts of computation are now cheaper than paying
+someone to write a task-specific program.
+
+</text>
+<utterances>
+ <utterance number= 81 start=0:05:41 end= 0:05:45
+ only thing we can do. It's a relatively simple thing for a machine
+<utterance number= 82 start=0:05:45 end= 0:05:49
+ learning system to do now. And to motivate the rest of the course, I
+<utterance number= 83 start=0:05:49 end= 0:05:53
+ want to show you some examples of much more difficult things.
+<utterance number= 84 start=0:05:53 end= 0:05:58
+ So, we now have neural nets with approaching 100 million parameters in
+<utterance number= 85 start=0:05:58 end= 0:06:05
+ them that can recognize a thousand different object classes in 1.3 million
+<utterance number= 86 start=0:06:05 end= 0:06:09
+ high resolution training images got from the web.
+<utterance number= 87 start=0:06:09 end= 0:06:15
+ So, there was a competition in 2010 and the best system got 47% error rate if you
+<utterance number= 88 start=0:06:15 end= 0:06:20
+ look at its first choice and 25% error rate if you say it got it right if it was
+<utterance number= 89 start=0:06:20 end= 0:06:22
+ in its top five choices, which isn't bad for a thousand percent error rate.
+<utterance number= 90 start=0:06:22 end= 0:06:25
+ Which isn't bad for a thousand different objects.
+<utterance number= 91 start=0:06:25 end= 0:06:31
+ Jitendra Malik, who's an eminent neural net skeptic and a leading computer vision
+<utterance number= 92 start=0:06:31 end= 0:06:36
+ researcher has said that this competition is a good test of whether deep neural
+<utterance number= 93 start=0:06:36 end= 0:06:43
+ networks can work well for object recognition. And a very deep neural network can
+<utterance number= 94 start=0:06:43 end= 0:06:47
+ now do considerably better than the thing that won the competition.
+<utterance number= 95 start=0:06:47 end= 0:06:51
+ It can get less than 40% error for its first choice and less than 20% error for
+<utterance number= 96 start=0:06:51 end= 0:06:52
+ its top five choices.
+<utterance number= 97 start=0:06:52 end= 0:06:55
+ I'll describe that in much more detail in lecture five.
+<utterance number= 98 start=0:06:55 end= 0:06:59
+ Here's some examples of the kinds of images you have to recognize.
+
+</utterance>
+</scene>
+</lecture>
+</course><course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=8 ,start= 00:06:57.867 ,end= 00:08:19.533> 
+<text>
+Some examples of tasks best solved by learning
+
++ Recognizing pattems:
+— Objects in real scenes
+— Facial identities or facial expressions
+— Spoken words
++ Recognizing anomalies:
+— Unusual sequences of credit card transactions
+— Unusual patterns of sensor readings in a nuclear power plant
++ Prediction:
+— Future stock prices or currency exchange rates
+— Which movies will a person like?
+
+
+</text>
+<utterances>
+ <utterance number= 99 start=0:06:59 end= 0:07:03
+ These are images from the test set that it's never seen before.
+<utterance number= 100 start=0:07:03 end= 0:07:08
+ And below the examples, I'm showing you what the neural net thought the right
+<utterance number= 101 start=0:07:08 end= 0:07:13
+ answer was, where the length of the horizontal bar is how confident it was,
+<utterance number= 102 start=0:07:13 end= 0:07:18
+ and the correct answer is in red. So, if you look in the middle, it correctly
+<utterance number= 103 start=0:07:18 end= 0:07:21
+ identified that as a snowplow. But you can see that it's unbiased.
+<utterance number= 104 start=0:07:21 end= 0:07:24
+ But you can see that its other choices were also fairly sensible.
+<utterance number= 105 start=0:07:24 end= 0:07:27
+ It does look a little bit like a drilling platform.
+<utterance number= 106 start=0:07:27 end= 0:07:30
+ And if you look at its third choice, a lifeboat, it actually looks very like a
+<utterance number= 107 start=0:07:30 end= 0:07:32
+ lifeboat. You can see the flag on the front of the
+<utterance number= 108 start=0:07:32 end= 0:07:36
+ boat and the bridge of the boat and the flag at the back and the high surf in the
+<utterance number= 109 start=0:07:36 end= 0:07:39
+ background. So it's, its errors tell you a lot about
+<utterance number= 110 start=0:07:39 end= 0:07:42
+ how it's doing it and they're very plausible errors.
+<utterance number= 111 start=0:07:42 end= 0:07:47
+ If you look on the left, it gets it wrong, possibly because the beak of the bird is
+<utterance number= 112 start=0:07:47 end= 0:07:50
+ missing and because the feathers of the bird look very like the flag of the bird.
+<utterance number= 113 start=0:07:50 end= 0:07:55
+ Look very like the wet fur of an otter. But it gets it in its top five and it
+<utterance number= 114 start=0:07:55 end= 0:07:58
+ does better than me. I wouldn't know if that was a quail or
+<utterance number= 115 start=0:07:58 end= 0:08:02
+ a roughed grouse or a partridge. If you look on the right, it gets it
+<utterance number= 116 start=0:08:02 end= 0:08:06
+ completely wrong. It a guillotine, you can see why it says
+<utterance number= 117 start=0:08:06 end= 0:08:09
+ that. You can possibly see why it says orangutan
+<utterance number= 118 start=0:08:09 end= 0:08:12
+ because of the sort of jungle looking background and something orange in the
+<utterance number= 119 start=0:08:12 end= 0:08:15
+ middle. But it fails to get the right answer.
+<utterance number= 120 start=0:08:15 end= 0:08:19
+ It can, however, deal with a wide range of different objects.
+<utterance number= 121 start=0:08:20 end= 0:08:25
+ If you look on the left, I would have said microwave was my first answer.
+
+</utterance>
+</scene>
+</lecture>
+</course><course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=9 ,start= 00:08:19.533 ,end= 00:08:44.333> 
+<text>
+A standard example of machine learning
+
+Alot of genetics is done on fruit flies.
+— They are convenient because they breed fast.
+— We already know a lot about them.
+The MNIST database of hand-written digits is the the machine leaming
+equivalent of fruit flies.
+~ They are publicly available and we can learn them quite fast in a
+moderate-sized neural net.
+— We know a huge amount about how well various machine learning
+methods do on MNIST.
+We will use MNIST as our standard task.
+
+</text>
+<utterances>
+ <utterance number= 121 start=0:08:20 end= 0:08:25
+ If you look on the left, I would have said microwave was my first answer.
+<utterance number= 122 start=0:08:25 end= 0:08:29
+ The labels aren't very systematic, so actually the correct answer there is
+<utterance number= 123 start=0:08:29 end= 0:08:33
+ electric range and does get it in its top five.
+<utterance number= 124 start=0:08:33 end= 0:08:36
+ In the middle, it's getting a turnstile, which is a distributed object.
+<utterance number= 125 start=0:08:36 end= 0:08:40
+ It does, it can do more than just recognize compact things.
+<utterance number= 126 start=0:08:40 end= 0:08:45
+ And it can also deal with pictures as well as real scenes, like the bulletproof vest.
+
+</utterance>
+</scene>
+</lecture>
+</course><course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=10 ,start= 00:08:44.333 ,end= 00:09:18.800> 
+<text>
+It is very hard to say what makes a2
+20a AALD
+O%eaeo 2 als|>l7
+ae@7 9d TEDSS
+2L2\77N71229
+bDEaGSFI4GAP?
+
+
+</text>
+<utterances>
+ <utterance number= 127 start=0:08:45 end= 0:08:50
+ And it makes some very cool errors. If you look at the image on the left, it's
+<utterance number= 128 start=0:08:50 end= 0:08:54
+ an earphone. It doesn't get anything like an earphone.
+<utterance number= 129 start=0:08:54 end= 0:08:57
+ But if you look at its fourth bet, it thinks it's an ant.
+<utterance number= 130 start=0:08:57 end= 0:09:01
+ And to begin with, you think that's crazy. But then if you look at it carefully, you
+<utterance number= 131 start=0:09:01 end= 0:09:04
+ can see it's a view from an ant from underneath. The eyes are looking down at
+<utterance number= 132 start=0:09:04 end= 0:09:08
+ you, and you can see the antennae behind it. It's not the kind of view of an ant
+<utterance number= 133 start=0:09:08 end= 0:09:12
+ you'd like to have if you were a green fly. If you look at the one on the right,
+<utterance number= 134 start=0:09:12 end= 0:09:16
+ it doesn't get the right answer. But all of its answers are cylindrical
+<utterance number= 135 start=0:09:16 end= 0:09:20
+ objects. Another question that I've been asked is,
+
+</utterance>
+</scene>
+</lecture>
+</course><course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=11 ,start= 00:09:18.800 ,end= 00:10:54.467> 
+<text>
+Beyond MNIST: The ImageNet task
+
++ 1000 different object classes in 1.3 million high-resolution training images
+from the web.
+
+— Best system in 2010 competition got 47% error for its first choice and
+25% error for its top § choices.
+
++ Jitendra Malik (an eminent neural net sceptic) said that this competition is
+a good test of whether deep neural networks work well for object
+recognition.
+
+— Avery deep neural net (Krizhevsky et. al. 2012) gets less that 40%
+error for its first choice and less than 20% for its top 5 choices.
+{see lecture 5).
+
+</text>
+<utterances>
+ <utterance number= 136 start=0:09:20 end= 0:09:24
+ what is the difference between a sound wave and a speech recognition system?
+<utterance number= 137 start=0:09:24 end= 0:09:28
+ And another task that neural nets are now very good at is speech recognition.
+<utterance number= 138 start=0:09:28 end= 0:09:32
+ Or at least part of a speech recognition system. So speech recognition systems have
+<utterance number= 139 start=0:09:32 end= 0:09:36
+ several stages. First they pre-process the sound wave to
+<utterance number= 140 start=0:09:36 end= 0:09:41
+ get a vector of acoustic coefficients for each 10 milliseconds of sound wave.
+<utterance number= 141 start=0:09:41 end= 0:09:45
+ And so they get a hundred of those vectors per second.
+<utterance number= 142 start=0:09:45 end= 0:09:50
+ They then take a few adjacent vectors of acoustic coefficients, and they need to
+<utterance number= 143 start=0:09:50 end= 0:09:55
+ place bets on which part of which phoneme is being spoken. So they look at this
+<utterance number= 144 start=0:09:55 end= 0:09:59
+ little window, and they say in the middle of this window, what do I think the
+<utterance number= 145 start=0:09:59 end= 0:10:04
+ phoneme is, and which part of the phoneme is it? And a good speech recognition
+<utterance number= 146 start=0:10:04 end= 0:10:09
+ system will have many alternative models for a phoneme. And each model it might
+<utterance number= 147 start=0:10:09 end= 0:10:14
+ have three different parts. So it might have many thousands of alternative
+<utterance number= 148 start=0:10:14 end= 0:10:18
+ fragments that it thinks this might be. And you have to place bets on all those
+<utterance number= 149 start=0:10:18 end= 0:10:19
+ thousands of alternatives.
+<utterance number= 150 start=0:10:20 end= 0:10:25
+ And then once you place those bets, you have a decoding stage that does the best
+<utterance number= 151 start=0:10:25 end= 0:10:32
+ job it can of using plausible bets, but piecing them together into a sequence of
+<utterance number= 152 start=0:10:32 end= 0:10:37
+ bets that corresponds to the kinds of things that people say.
+<utterance number= 153 start=0:10:37 end= 0:10:44
+ Currently, deep neural networks pioneered by George Dahl and Abdul Rahman,
+<utterance number= 154 start=0:10:44 end= 0:10:48
+ Mohammed, at the University of Toronto, are doing better than previous machine
+<utterance number= 155 start=0:10:48 end= 0:10:50
+ learning methods for the economy.
+<utterance number= 156 start=0:10:50 end= 0:10:53
+ They're now using the acoustic model, and they're now beginning to be used in
+<utterance number= 157 start=0:10:53 end= 0:11:04
+ practical systems. So Dahl and Mohammed developed a system that uses many layers
+
+</utterance>
+</scene>
+</lecture>
+</course><course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=12 ,start= 00:10:54.467 ,end= 00:11:55.667> 
+<text>
+Some examples from an earlier version of the net
+
+
+</text>
+<utterances>
+ <utterance number= 158 start=0:11:04 end= 0:11:14
+ of binary neurons to take some acoustic frames and make bets about the labels.
+<utterance number= 159 start=0:11:14 end= 0:11:18
+ They were doing it on a fairly small database, and they only used 183 alternative
+<utterance number= 160 start=0:11:18 end= 0:11:19
+ labels.
+<utterance number= 161 start=0:11:19 end= 0:11:22
+ And to get their system to work well, they did some pre-training, which will be
+<utterance number= 162 start=0:11:22 end= 0:11:25
+ described in the second half of the course.
+<utterance number= 163 start=0:11:25 end= 0:11:31
+ After standard post-processing, they got 20.7% error rate on a very standard
+<utterance number= 164 start=0:11:31 end= 0:11:35
+ benchmark, which is kind of like the MNIST for speech.
+<utterance number= 165 start=0:11:35 end= 0:11:40
+ The best previous result on that benchmark for speaker independent recognition was
+<utterance number= 166 start=0:11:40 end= 0:11:47
+ 24.4%. And a very experienced speech researcher at Microsoft Research realized that that was a big enough
+<utterance number= 167 start=0:11:47 end= 0:11:55
+ improvement that probably this would change the way speech recognition systems were done, and indeed it has.
+<utterance number= 168 start=0:11:55 end= 0:12:06
+ So if you look at recent results from several different leading speech groups, Microsoft showed that this kind of deep
+
+</utterance>
+</scene>
+</lecture>
+</course><course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=13 ,start= 00:11:55.667 ,end= 00:13:14.600> 
+<text>
+It can deal with a wide range of objects
+
+tec noe tun nae ec
+esta] de tet
+
+
+</text>
+<utterances>
+ <utterance number= 169 start=0:12:06 end= 0:12:15
+ neural network, when used as the acoustic model in a speech system, reduced the error rate from 27.4% to 18.5%,Hi,
+<utterance number= 170 start=0:12:15 end= 0:12:23
+ and relatively, you could view it as reducing the amount of training data you needed from 2,000 hours down to 309 hours to get comparable performance.
+<utterance number= 171 start=0:12:23 end= 0:12:41
+ IBM, which has the best system for one of the standard speech recognition tasks for large vocabulary speech recognition, showed that even its very highly tuned system that was getting 18.8% can be beaten by one of these deep neural networks.
+<utterance number= 172 start=0:12:41 end= 0:12:43
+ And Google, fairly recently, trained a deep neural network to do the same.
+<utterance number= 173 start=0:12:43 end= 0:12:44
+ And Google, fairly recently, trained a deep neural network to do the same.
+<utterance number= 174 start=0:12:44 end= 0:12:45
+ And Google, fairly recently, trained a deep neural network to do the same.
+<utterance number= 175 start=0:12:45 end= 0:12:46
+ Google, fairly recently, trained a deep neural network to do the same.
+<utterance number= 176 start=0:12:46 end= 0:12:47
+ And Google, fairly recently, trained a deep neural network to do the same.
+<utterance number= 177 start=0:12:47 end= 0:12:52
+ So for example, in this case it was a news ad that was a little bit less than the average speech recognition time of the day, and even with your big neural network on a large amount of speech, 5,800 hours, that was still much less than they trained their Gaussian mixturing model on.
+<utterance number= 178 start=0:12:52 end= 0:12:58
+ But even with much less data, it did a lot better than the technology they had before.
+<utterance number= 179 start=0:12:58 end= 0:13:04
+ So it reduced the error rate from 16% to 12.3%, and the error rate is still falling.
+<utterance number= 180 start=0:13:04 end= 0:13:13.900000
+ And in the latest Android, if you do voice search, it's using one of these deep neural networks in order to do very good speech recognition.
+
+</utterance>
+</scene>
+</lecture>
+</course>

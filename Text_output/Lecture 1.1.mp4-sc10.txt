@@ -1,0 +1,43 @@
+<course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=10 ,start= 00:08:44.333 ,end= 00:09:18.800> 
+<text>
+It is very hard to say what makes a2
+20a AALD
+O%eaeo 2 als|>l7
+ae@7 9d TEDSS
+2L2\77N71229
+bDEaGSFI4GAP?
+
+
+</text>
+<utterances>
+ <utterance number= 127 start=0:08:45 end= 0:08:50
+ And it makes some very cool errors. If you look at the image on the left, it's
+<utterance number= 128 start=0:08:50 end= 0:08:54
+ an earphone. It doesn't get anything like an earphone.
+<utterance number= 129 start=0:08:54 end= 0:08:57
+ But if you look at its fourth bet, it thinks it's an ant.
+<utterance number= 130 start=0:08:57 end= 0:09:01
+ And to begin with, you think that's crazy. But then if you look at it carefully, you
+<utterance number= 131 start=0:09:01 end= 0:09:04
+ can see it's a view from an ant from underneath. The eyes are looking down at
+<utterance number= 132 start=0:09:04 end= 0:09:08
+ you, and you can see the antennae behind it. It's not the kind of view of an ant
+<utterance number= 133 start=0:09:08 end= 0:09:12
+ you'd like to have if you were a green fly. If you look at the one on the right,
+<utterance number= 134 start=0:09:12 end= 0:09:16
+ it doesn't get the right answer. But all of its answers are cylindrical
+<utterance number= 135 start=0:09:16 end= 0:09:20
+ objects. Another question that I've been asked is,
+
+</utterance>
+</scene>
+</lecture>
+</course>

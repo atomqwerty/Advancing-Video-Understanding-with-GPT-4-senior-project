@@ -1,0 +1,77 @@
+<course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=11 ,start= 00:09:18.800 ,end= 00:10:54.467> 
+<text>
+Beyond MNIST: The ImageNet task
+
++ 1000 different object classes in 1.3 million high-resolution training images
+from the web.
+
+— Best system in 2010 competition got 47% error for its first choice and
+25% error for its top § choices.
+
++ Jitendra Malik (an eminent neural net sceptic) said that this competition is
+a good test of whether deep neural networks work well for object
+recognition.
+
+— Avery deep neural net (Krizhevsky et. al. 2012) gets less that 40%
+error for its first choice and less than 20% for its top 5 choices.
+{see lecture 5).
+
+</text>
+<utterances>
+ <utterance number= 136 start=0:09:20 end= 0:09:24
+ what is the difference between a sound wave and a speech recognition system?
+<utterance number= 137 start=0:09:24 end= 0:09:28
+ And another task that neural nets are now very good at is speech recognition.
+<utterance number= 138 start=0:09:28 end= 0:09:32
+ Or at least part of a speech recognition system. So speech recognition systems have
+<utterance number= 139 start=0:09:32 end= 0:09:36
+ several stages. First they pre-process the sound wave to
+<utterance number= 140 start=0:09:36 end= 0:09:41
+ get a vector of acoustic coefficients for each 10 milliseconds of sound wave.
+<utterance number= 141 start=0:09:41 end= 0:09:45
+ And so they get a hundred of those vectors per second.
+<utterance number= 142 start=0:09:45 end= 0:09:50
+ They then take a few adjacent vectors of acoustic coefficients, and they need to
+<utterance number= 143 start=0:09:50 end= 0:09:55
+ place bets on which part of which phoneme is being spoken. So they look at this
+<utterance number= 144 start=0:09:55 end= 0:09:59
+ little window, and they say in the middle of this window, what do I think the
+<utterance number= 145 start=0:09:59 end= 0:10:04
+ phoneme is, and which part of the phoneme is it? And a good speech recognition
+<utterance number= 146 start=0:10:04 end= 0:10:09
+ system will have many alternative models for a phoneme. And each model it might
+<utterance number= 147 start=0:10:09 end= 0:10:14
+ have three different parts. So it might have many thousands of alternative
+<utterance number= 148 start=0:10:14 end= 0:10:18
+ fragments that it thinks this might be. And you have to place bets on all those
+<utterance number= 149 start=0:10:18 end= 0:10:19
+ thousands of alternatives.
+<utterance number= 150 start=0:10:20 end= 0:10:25
+ And then once you place those bets, you have a decoding stage that does the best
+<utterance number= 151 start=0:10:25 end= 0:10:32
+ job it can of using plausible bets, but piecing them together into a sequence of
+<utterance number= 152 start=0:10:32 end= 0:10:37
+ bets that corresponds to the kinds of things that people say.
+<utterance number= 153 start=0:10:37 end= 0:10:44
+ Currently, deep neural networks pioneered by George Dahl and Abdul Rahman,
+<utterance number= 154 start=0:10:44 end= 0:10:48
+ Mohammed, at the University of Toronto, are doing better than previous machine
+<utterance number= 155 start=0:10:48 end= 0:10:50
+ learning methods for the economy.
+<utterance number= 156 start=0:10:50 end= 0:10:53
+ They're now using the acoustic model, and they're now beginning to be used in
+<utterance number= 157 start=0:10:53 end= 0:11:04
+ practical systems. So Dahl and Mohammed developed a system that uses many layers
+
+</utterance>
+</scene>
+</lecture>
+</course>

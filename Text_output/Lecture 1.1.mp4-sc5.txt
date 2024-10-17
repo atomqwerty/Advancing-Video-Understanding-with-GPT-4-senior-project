@@ -1,0 +1,69 @@
+<course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=5 ,start= 00:03:27.533 ,end= 00:04:29.867> 
+<text>
+Word error rates from MSR, IBM, & Google
+(Hinton et. al. IEEE Signal Processing Magazine, Nov 2012)
+
+The task Hours of Deep neural Gaussian GMM with
+
+training data network Mixture more data
+Model
+
+Switehboard 308 18.5% 27.4% 18.6%
+
+(Microsoft {2000 hrs)
+
+Research}
+
+English broadcast $0 17.5% 18.8%
+
+news (IBM)
+
+Google voice 5.870 12.3% 16.0%
+
+search (and fating) (295,870 hrs)
+
+(android 4.1)
+
+</text>
+<utterances>
+ <utterance number= 50 start=0:03:33 end= 0:03:38
+ the machine learning algorithms. This is done in a lot of science.
+<utterance number= 51 start=0:03:38 end= 0:03:43
+ In genetics, for example, a lot of genetics is done on fruit flies.
+<utterance number= 52 start=0:03:43 end= 0:03:47
+ And the reason is they're convenient. They breed fast.
+<utterance number= 53 start=0:03:47 end= 0:03:51
+ And a lot is already known about the genetics of fruit flies.
+<utterance number= 54 start=0:03:51 end= 0:03:57
+ The MNIST database of handwritten digits is the machine learning algorithm that
+<utterance number= 55 start=0:03:57 end= 0:04:00
+ is the machine learning equivalent of fruit flies.
+<utterance number= 56 start=0:04:00 end= 0:04:05
+ It's publicly available. We can get machine learning algorithms to
+<utterance number= 57 start=0:04:05 end= 0:04:09
+ learn how to recognize these handwritten digits quite quickly.
+<utterance number= 58 start=0:04:09 end= 0:04:14
+ So, it's easy to try lots of variations. And we know huge amounts about how well
+<utterance number= 59 start=0:04:14 end= 0:04:17
+ different machine learning methods do on MNIST.
+<utterance number= 60 start=0:04:17 end= 0:04:21
+ And in particular, the different machine learning methods were implemented by
+<utterance number= 61 start=0:04:21 end= 0:04:25
+ people who believed in them. So, we can rely on those results.
+<utterance number= 62 start=0:04:25 end= 0:04:29
+ So, for all those reasons, we're going to use MNIST as our standard task.
+<utterance number= 63 start=0:04:29 end= 0:04:34
+ Here's an example of some of the digits in MNIST.
+
+</utterance>
+</scene>
+</lecture>
+</course>

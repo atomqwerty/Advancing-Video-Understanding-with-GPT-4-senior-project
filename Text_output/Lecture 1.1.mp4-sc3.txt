@@ -1,0 +1,59 @@
+<course>
+<course-name>
+Neural Networks for Machine Learning
+</course-name>
+<lecture>
+<lecture-name>
+Lecture 1.1.mp4
+</lecture-name>
+<scene number=3 ,start= 00:01:18.400 ,end= 00:02:22.200> 
+<text>
+The Speech Recognition Task
+
++ Aspeech recognition system has several stages:
+
+— Pre-pracessing: Convert the sound wave into a vector of acoustic
+coefficients. Extract a new vector about every 10 mille seconds.
+— The acoustic model: Use a few adjacent vectors of acoustic coefficients
+to place bets on which part of which phoneme is being spoken
+— Decoding: Find the sequence of bets that does the best job of fitting the
+acoustic data and also fitting a model of the kinds of things people say.
++ Deep neural networks pioneered by George Dahl and Abdel-rahman
+Mohamed are now replacing the previous machine learning method
+for the acoustic model.
+
+</text>
+<utterances>
+ <utterance number= 19 start=0:01:23 end= 0:01:28
+ for each specific task, for a particular task we'll collect a lot of examples that
+<utterance number= 20 start=0:01:29 end= 0:01:32
+ specify the correct output for a given input.
+<utterance number= 21 start=0:01:32 end= 0:01:37
+ A machine learning algorithm then takes these examples and produces a program that
+<utterance number= 22 start=0:01:37 end= 0:01:41
+ does the job. The program produced by the learning
+<utterance number= 23 start=0:01:41 end= 0:01:46
+ algorithm may look very different from a typical handwritten program.
+<utterance number= 24 start=0:01:46 end= 0:01:49
+ For example, it might contain millions of numbers about how you weight different
+<utterance number= 25 start=0:01:49 end= 0:01:54
+ kinds of evidence. If we do it right, the program should work
+<utterance number= 26 start=0:01:54 end= 0:01:57
+ for new cases as well as the ones it's trained on.
+<utterance number= 27 start=0:01:57 end= 0:01:59
+ And if the data changes, it might be that the program is not working for new cases
+<utterance number= 28 start=0:01:59 end= 0:02:02
+ as well as the ones it's trained on. So, if the data changes, we should be able
+<utterance number= 29 start=0:02:02 end= 0:02:07
+ to change the program relatively easily by retraining it on the new data.
+<utterance number= 30 start=0:02:07 end= 0:02:12
+ And now, massive amounts of computation are cheaper than paying someone to write a
+<utterance number= 31 start=0:02:12 end= 0:02:17
+ program for a specific task. So, we can afford big complicated machine
+<utterance number= 32 start=0:02:17 end= 0:02:23
+ learning programs to produce these task specific systems for us.
+
+</utterance>
+</scene>
+</lecture>
+</course>
