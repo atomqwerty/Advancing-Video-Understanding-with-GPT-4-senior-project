@@ -51,7 +51,7 @@ def clip_ocr(dir,result,scene_time_stamp,video_path,prompt_path):
             frame = frame_extracter(video_crr)
             content = cap_last_sec(frame)
 
-            str_crr = f"<course>\n<course-name>\n{video_path[1]}\n</course-name>\n<lecture>\n<lecture-name>\n{video_path[2]}\n</lecture-name>\n"+f"<scene number={i+1} " +f"start= {scene_time_stamp[i][0]} end= {scene_time_stamp[i][1]}> "+'\n<text>\n' + content +'\n</text>\n'
+            str_crr = f"Scene: {i+1} " +f"timestamp: {scene_time_stamp[i][0]} - {scene_time_stamp[i][1]} "+'\n' + content + '\n'
             for j in sentence :
                 n+=1
                 timestamp_start =j["start"]
