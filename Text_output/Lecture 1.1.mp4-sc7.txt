@@ -1,13 +1,4 @@
-<course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=7 ,start= 00:05:39.867 ,end= 00:06:57.867> 
-<text>
+Scene: 7 timestamp: 00:05:39.867 - 00:06:57.867 
 The Machine Learning Approach
 
 + Instead of writing a program by hand for each specific task, we collect
@@ -29,7 +20,6 @@ new data
 + Massive amounts of computation are now cheaper than paying
 someone to write a task-specific program.
 
-</text>
 <utterances>
  <utterance number= 81 start=0:05:41 end= 0:05:45
  only thing we can do. It's a relatively simple thing for a machine

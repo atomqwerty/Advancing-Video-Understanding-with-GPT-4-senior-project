@@ -1,13 +1,4 @@
-<course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=6 ,start= 00:04:29.867 ,end= 00:05:39.867> 
-<text>
+Scene: 6 timestamp: 00:04:29.867 - 00:05:39.867 
 What is Machine Learning?
 
 Its very hard to write programs that solve problems like recognizing a
@@ -26,7 +17,6 @@ need to combine a very large number of weak rules.
 
 — Fraud is a moving target. The program needs to keep changing.
 
-</text>
 <utterances>
  <utterance number= 64 start=0:04:34 end= 0:04:39
  These are ones that were correctly recognized by neural net the first time it

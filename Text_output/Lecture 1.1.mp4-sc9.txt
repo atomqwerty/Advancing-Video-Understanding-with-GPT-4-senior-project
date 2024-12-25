@@ -1,13 +1,4 @@
-<course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=9 ,start= 00:08:19.533 ,end= 00:08:44.333> 
-<text>
+Scene: 9 timestamp: 00:08:19.533 - 00:08:44.333 
 A standard example of machine learning
 
 Alot of genetics is done on fruit flies.
@@ -21,7 +12,6 @@ moderate-sized neural net.
 methods do on MNIST.
 We will use MNIST as our standard task.
 
-</text>
 <utterances>
  <utterance number= 121 start=0:08:20 end= 0:08:25
  If you look on the left, I would have said microwave was my first answer.

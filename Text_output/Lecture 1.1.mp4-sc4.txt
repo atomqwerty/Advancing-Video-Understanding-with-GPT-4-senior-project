@@ -1,13 +1,4 @@
-<course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=4 ,start= 00:02:22.200 ,end= 00:03:27.533> 
-<text>
+Scene: 4 timestamp: 00:02:22.200 - 00:03:27.533 
 Phone recognition on the TIMIT benchmark
 (Mohamed, Dahl, & Hinton, 2012)
 
@@ -39,7 +30,6 @@ several models.
 result could change the way
 speech recognition was done.
 
-</text>
 <utterances>
  <utterance number= 33 start=0:02:23 end= 0:02:27
  Some examples of the things that are best done by using a learning algorithm are

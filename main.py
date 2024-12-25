@@ -35,11 +35,11 @@ if __name__ == "__main__":
     # Step 2: Split Video into Multiple Clips
     clip_paths = T_sceneDet.split_video(video_path, scenes, output_dir)
 
-    # Step 3: Speech Recognition using Whisper-Timestamped
-    transcript = T_speechRec.speech_recognition(video_path, json_path)
+    # # Step 3: Speech Recognition using Whisper-Timestamped
+    # transcript = T_speechRec.speech_recognition(video_path, json_path)
 
-    # # Skip step 3
-    # transcript = T_speechRec.skip_speech_recognition(json_path)
+    # Skip step 3
+    transcript = T_speechRec.skip_speech_recognition(json_path)
 
     # Step 4: Generate Clip Descriptions
     clip_descriptions = T_OCR.clip_ocr(output_dir, transcript ,scenes,video_path.split('/'),prompt_path)

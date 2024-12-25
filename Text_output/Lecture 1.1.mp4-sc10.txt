@@ -1,13 +1,4 @@
-<course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=10 ,start= 00:08:44.333 ,end= 00:09:18.800> 
-<text>
+Scene: 10 timestamp: 00:08:44.333 - 00:09:18.800 
 It is very hard to say what makes a2
 20a AALD
 O%eaeo 2 als|>l7
@@ -16,7 +7,6 @@ ae@7 9d TEDSS
 bDEaGSFI4GAP?
 
 
-</text>
 <utterances>
  <utterance number= 127 start=0:08:45 end= 0:08:50
  And it makes some very cool errors. If you look at the image on the left, it's

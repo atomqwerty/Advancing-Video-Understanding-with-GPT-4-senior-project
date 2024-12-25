@@ -1,19 +1,9 @@
-<course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=2 ,start= 00:00:20.533 ,end= 00:01:18.400> 
-<text>
+Scene: 2 timestamp: 00:00:20.533 - 00:01:18.400 
 It makes some really cool errors
 
 barber chair
 
 
-</text>
 <utterances>
  <utterance number= 6 start=0:00:24 end= 0:00:29
  that there's some problems where it's very hard to write the programs.

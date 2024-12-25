@@ -1,13 +1,4 @@
-<course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=3 ,start= 00:01:18.400 ,end= 00:02:22.200> 
-<text>
+Scene: 3 timestamp: 00:01:18.400 - 00:02:22.200 
 The Speech Recognition Task
 
 + Aspeech recognition system has several stages:
@@ -22,7 +13,6 @@ acoustic data and also fitting a model of the kinds of things people say.
 Mohamed are now replacing the previous machine learning method
 for the acoustic model.
 
-</text>
 <utterances>
  <utterance number= 19 start=0:01:23 end= 0:01:28
  for each specific task, for a particular task we'll collect a lot of examples that

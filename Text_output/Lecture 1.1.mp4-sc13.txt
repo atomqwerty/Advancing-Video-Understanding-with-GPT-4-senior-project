@@ -1,20 +1,10 @@
-<course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=13 ,start= 00:11:55.667 ,end= 00:13:14.600> 
-<text>
+Scene: 13 timestamp: 00:11:55.667 - 00:13:14.600 
 It can deal with a wide range of objects
 
 tec noe tun nae ec
 esta] de tet
 
 
-</text>
 <utterances>
  <utterance number= 169 start=0:12:06 end= 0:12:15
  neural network, when used as the acoustic model in a speech system, reduced the error rate from 27.4% to 18.5%,Hi,

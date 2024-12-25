@@ -1,13 +1,4 @@
-<course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=11 ,start= 00:09:18.800 ,end= 00:10:54.467> 
-<text>
+Scene: 11 timestamp: 00:09:18.800 - 00:10:54.467 
 Beyond MNIST: The ImageNet task
 
 + 1000 different object classes in 1.3 million high-resolution training images
@@ -24,7 +15,6 @@ recognition.
 error for its first choice and less than 20% for its top 5 choices.
 {see lecture 5).
 
-</text>
 <utterances>
  <utterance number= 136 start=0:09:20 end= 0:09:24
  what is the difference between a sound wave and a speech recognition system?

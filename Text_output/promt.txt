@@ -1,13 +1,4 @@
-<course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=1 ,start= 00:00:00.000 ,end= 00:00:20.533> 
-<text>
+Scene: 1 timestamp: 00:00:00.000 - 00:00:20.533 
 Neural Networks for Machine Learning
 
 Lecture 1a
@@ -20,7 +11,6 @@ Nitish Srivastava
 Kevin Swersky
 
 
-</text>
 <utterances>
  <utterance number= 1 start=0:00:00 end= 0:00:04
  Hello. Welcome to the Coursera course on neural
@@ -36,22 +26,12 @@ Kevin Swersky
 </utterance>
 </scene>
 </lecture>
-</course><course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=2 ,start= 00:00:20.533 ,end= 00:01:18.400> 
-<text>
+</course>Scene: 2 timestamp: 00:00:20.533 - 00:01:18.400 
 It makes some really cool errors
 
 barber chair
 
 
-</text>
 <utterances>
  <utterance number= 6 start=0:00:24 end= 0:00:29
  that there's some problems where it's very hard to write the programs.
@@ -83,16 +63,7 @@ barber chair
 </utterance>
 </scene>
 </lecture>
-</course><course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=3 ,start= 00:01:18.400 ,end= 00:02:22.200> 
-<text>
+</course>Scene: 3 timestamp: 00:01:18.400 - 00:02:22.200 
 The Speech Recognition Task
 
 + Aspeech recognition system has several stages:
@@ -107,7 +78,6 @@ acoustic data and also fitting a model of the kinds of things people say.
 Mohamed are now replacing the previous machine learning method
 for the acoustic model.
 
-</text>
 <utterances>
  <utterance number= 19 start=0:01:23 end= 0:01:28
  for each specific task, for a particular task we'll collect a lot of examples that
@@ -141,16 +111,7 @@ for the acoustic model.
 </utterance>
 </scene>
 </lecture>
-</course><course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=4 ,start= 00:02:22.200 ,end= 00:03:27.533> 
-<text>
+</course>Scene: 4 timestamp: 00:02:22.200 - 00:03:27.533 
 Phone recognition on the TIMIT benchmark
 (Mohamed, Dahl, & Hinton, 2012)
 
@@ -182,7 +143,6 @@ several models.
 result could change the way
 speech recognition was done.
 
-</text>
 <utterances>
  <utterance number= 33 start=0:02:23 end= 0:02:27
  Some examples of the things that are best done by using a learning algorithm are
@@ -222,16 +182,7 @@ speech recognition was done.
 </utterance>
 </scene>
 </lecture>
-</course><course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=5 ,start= 00:03:27.533 ,end= 00:04:29.867> 
-<text>
+</course>Scene: 5 timestamp: 00:03:27.533 - 00:04:29.867 
 Word error rates from MSR, IBM, & Google
 (Hinton et. al. IEEE Signal Processing Magazine, Nov 2012)
 
@@ -256,7 +207,6 @@ search (and fating) (295,870 hrs)
 
 (android 4.1)
 
-</text>
 <utterances>
  <utterance number= 50 start=0:03:33 end= 0:03:38
  the machine learning algorithms. This is done in a lot of science.
@@ -290,16 +240,7 @@ search (and fating) (295,870 hrs)
 </utterance>
 </scene>
 </lecture>
-</course><course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=6 ,start= 00:04:29.867 ,end= 00:05:39.867> 
-<text>
+</course>Scene: 6 timestamp: 00:04:29.867 - 00:05:39.867 
 What is Machine Learning?
 
 Its very hard to write programs that solve problems like recognizing a
@@ -318,7 +259,6 @@ need to combine a very large number of weak rules.
 
 — Fraud is a moving target. The program needs to keep changing.
 
-</text>
 <utterances>
  <utterance number= 64 start=0:04:34 end= 0:04:39
  These are ones that were correctly recognized by neural net the first time it
@@ -358,16 +298,7 @@ need to combine a very large number of weak rules.
 </utterance>
 </scene>
 </lecture>
-</course><course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=7 ,start= 00:05:39.867 ,end= 00:06:57.867> 
-<text>
+</course>Scene: 7 timestamp: 00:05:39.867 - 00:06:57.867 
 The Machine Learning Approach
 
 + Instead of writing a program by hand for each specific task, we collect
@@ -389,7 +320,6 @@ new data
 + Massive amounts of computation are now cheaper than paying
 someone to write a task-specific program.
 
-</text>
 <utterances>
  <utterance number= 81 start=0:05:41 end= 0:05:45
  only thing we can do. It's a relatively simple thing for a machine
@@ -431,16 +361,7 @@ someone to write a task-specific program.
 </utterance>
 </scene>
 </lecture>
-</course><course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=8 ,start= 00:06:57.867 ,end= 00:08:19.533> 
-<text>
+</course>Scene: 8 timestamp: 00:06:57.867 - 00:08:19.533 
 Some examples of tasks best solved by learning
 
 + Recognizing pattems:
@@ -455,7 +376,6 @@ Some examples of tasks best solved by learning
 — Which movies will a person like?
 
 
-</text>
 <utterances>
  <utterance number= 99 start=0:06:59 end= 0:07:03
  These are images from the test set that it's never seen before.
@@ -507,16 +427,7 @@ Some examples of tasks best solved by learning
 </utterance>
 </scene>
 </lecture>
-</course><course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=9 ,start= 00:08:19.533 ,end= 00:08:44.333> 
-<text>
+</course>Scene: 9 timestamp: 00:08:19.533 - 00:08:44.333 
 A standard example of machine learning
 
 Alot of genetics is done on fruit flies.
@@ -530,7 +441,6 @@ moderate-sized neural net.
 methods do on MNIST.
 We will use MNIST as our standard task.
 
-</text>
 <utterances>
  <utterance number= 121 start=0:08:20 end= 0:08:25
  If you look on the left, I would have said microwave was my first answer.
@@ -548,16 +458,7 @@ We will use MNIST as our standard task.
 </utterance>
 </scene>
 </lecture>
-</course><course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=10 ,start= 00:08:44.333 ,end= 00:09:18.800> 
-<text>
+</course>Scene: 10 timestamp: 00:08:44.333 - 00:09:18.800 
 It is very hard to say what makes a2
 20a AALD
 O%eaeo 2 als|>l7
@@ -566,7 +467,6 @@ ae@7 9d TEDSS
 bDEaGSFI4GAP?
 
 
-</text>
 <utterances>
  <utterance number= 127 start=0:08:45 end= 0:08:50
  And it makes some very cool errors. If you look at the image on the left, it's
@@ -590,16 +490,7 @@ bDEaGSFI4GAP?
 </utterance>
 </scene>
 </lecture>
-</course><course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=11 ,start= 00:09:18.800 ,end= 00:10:54.467> 
-<text>
+</course>Scene: 11 timestamp: 00:09:18.800 - 00:10:54.467 
 Beyond MNIST: The ImageNet task
 
 + 1000 different object classes in 1.3 million high-resolution training images
@@ -616,7 +507,6 @@ recognition.
 error for its first choice and less than 20% for its top 5 choices.
 {see lecture 5).
 
-</text>
 <utterances>
  <utterance number= 136 start=0:09:20 end= 0:09:24
  what is the difference between a sound wave and a speech recognition system?
@@ -666,20 +556,10 @@ error for its first choice and less than 20% for its top 5 choices.
 </utterance>
 </scene>
 </lecture>
-</course><course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=12 ,start= 00:10:54.467 ,end= 00:11:55.667> 
-<text>
+</course>Scene: 12 timestamp: 00:10:54.467 - 00:11:55.667 
 Some examples from an earlier version of the net
 
 
-</text>
 <utterances>
  <utterance number= 158 start=0:11:04 end= 0:11:14
  of binary neurons to take some acoustic frames and make bets about the labels.
@@ -707,23 +587,13 @@ Some examples from an earlier version of the net
 </utterance>
 </scene>
 </lecture>
-</course><course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=13 ,start= 00:11:55.667 ,end= 00:13:14.600> 
-<text>
+</course>Scene: 13 timestamp: 00:11:55.667 - 00:13:14.600 
 It can deal with a wide range of objects
 
 tec noe tun nae ec
 esta] de tet
 
 
-</text>
 <utterances>
  <utterance number= 169 start=0:12:06 end= 0:12:15
  neural network, when used as the acoustic model in a speech system, reduced the error rate from 27.4% to 18.5%,Hi,

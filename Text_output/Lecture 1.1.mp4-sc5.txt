@@ -1,13 +1,4 @@
-<course>
-<course-name>
-Neural Networks for Machine Learning
-</course-name>
-<lecture>
-<lecture-name>
-Lecture 1.1.mp4
-</lecture-name>
-<scene number=5 ,start= 00:03:27.533 ,end= 00:04:29.867> 
-<text>
+Scene: 5 timestamp: 00:03:27.533 - 00:04:29.867 
 Word error rates from MSR, IBM, & Google
 (Hinton et. al. IEEE Signal Processing Magazine, Nov 2012)
 
@@ -32,7 +23,6 @@ search (and fating) (295,870 hrs)
 
 (android 4.1)
 
-</text>
 <utterances>
  <utterance number= 50 start=0:03:33 end= 0:03:38
  the machine learning algorithms. This is done in a lot of science.
