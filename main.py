@@ -41,8 +41,10 @@ if __name__ == "__main__":
     # Skip step 3
     transcript = T_speechRec.skip_speech_recognition(json_path)
 
-    # Step 4: Generate Clip Descriptions
-    clip_descriptions = T_OCR.clip_ocr(output_dir, transcript ,scenes,video_path.split('/'),prompt_path)
+    # Step 4.1: Generate Clip Descriptions
+    clip_descriptions = T_OCR.clip_ocr_tes(output_dir, transcript ,scenes,video_path.split('/'),prompt_path)
+    # Step 4.2: Generate Clip Descriptions
+    # clip_descriptions = T_OCR.clip_ocr_google(output_dir, transcript ,scenes,video_path.split('/'),prompt_path)
 
     print("Clip Descriptions:", clip_descriptions)
     # write_txt(clip_descriptions,"clip_descriptions")
