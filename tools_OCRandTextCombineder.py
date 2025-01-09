@@ -11,6 +11,7 @@ snapping = 5
 def write_txt(str,name):
     with open(name+'.txt', 'w',encoding="utf-8") as f:
         f.write(str) 
+        
 def frame_extracter(video):
 
     frames = video.get(cv2.CAP_PROP_FRAME_COUNT) 
