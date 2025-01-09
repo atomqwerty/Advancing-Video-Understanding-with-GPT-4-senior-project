@@ -14,5 +14,5 @@ langchain-core
 langchain_openai
 moviepy
 scenedetect
-pytesseractpytesseract
+pytesseract
 google-cloud-vision
