@@ -1,20 +1,17 @@
 Scene: 11 timestamp: 00:09:18.800 - 00:10:54.467 
+•
 Beyond MNIST: The ImageNet task
-
-+ 1000 different object classes in 1.3 million high-resolution training images
+1000 different object classes in 1.3 million high-resolution training images
 from the web.
-
-— Best system in 2010 competition got 47% error for its first choice and
-25% error for its top § choices.
-
-+ Jitendra Malik (an eminent neural net sceptic) said that this competition is
+- Best system in 2010 competition got 47% error for its first choice and
+25% error for its top 5 choices.
+Jitendra Malik (an eminent neural net sceptic) said that this competition is
 a good test of whether deep neural networks work well for object
 recognition.
-
-— Avery deep neural net (Krizhevsky et. al. 2012) gets less that 40%
-error for its first choice and less than 20% for its top 5 choices.
-{see lecture 5).
-
+-
+A very deep neural net (Krizhevsky et. al. 2012) gets less that 40%
+error for its first choice and less than 20% for its top 5 choices
+(see lecture 5).
 <utterances>
  <utterance number= 136 start=0:09:20 end= 0:09:24
  what is the difference between a sound wave and a speech recognition system?

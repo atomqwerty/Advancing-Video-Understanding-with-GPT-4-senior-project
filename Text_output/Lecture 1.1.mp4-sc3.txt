@@ -1,18 +1,17 @@
 Scene: 3 timestamp: 00:01:18.400 - 00:02:22.200 
+•
+•
 The Speech Recognition Task
-
-+ Aspeech recognition system has several stages:
-
-— Pre-pracessing: Convert the sound wave into a vector of acoustic
+A speech recognition system has several stages:
+- Pre-processing: Convert the sound wave into a vector of acoustic
 coefficients. Extract a new vector about every 10 mille seconds.
-— The acoustic model: Use a few adjacent vectors of acoustic coefficients
-to place bets on which part of which phoneme is being spoken
-— Decoding: Find the sequence of bets that does the best job of fitting the
+- The acoustic model: Use a few adjacent vectors of acoustic coefficients
+to place bets on which part of which phoneme is being spoken.
+- Decoding: Find the sequence of bets that does the best job of fitting the
 acoustic data and also fitting a model of the kinds of things people say.
-+ Deep neural networks pioneered by George Dahl and Abdel-rahman
+Deep neural networks pioneered by George Dahl and Abdel-rahman
 Mohamed are now replacing the previous machine learning method
 for the acoustic model.
-
 <utterances>
  <utterance number= 19 start=0:01:23 end= 0:01:28
  for each specific task, for a particular task we'll collect a lot of examples that

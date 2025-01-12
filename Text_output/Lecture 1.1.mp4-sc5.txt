@@ -1,28 +1,37 @@
 Scene: 5 timestamp: 00:03:27.533 - 00:04:29.867 
 Word error rates from MSR, IBM, & Google
 (Hinton et. al. IEEE Signal Processing Magazine, Nov 2012)
-
-The task Hours of Deep neural Gaussian GMM with
-
-training data network Mixture more data
+The task
+Hours of
+training data
+Deep neural
+network
+Gaussian
+Mixture
 Model
-
-Switehboard 308 18.5% 27.4% 18.6%
-
-(Microsoft {2000 hrs)
-
-Research}
-
-English broadcast $0 17.5% 18.8%
-
+GMM with
+more data
+Switchboard
+309
+(Microsoft
+18.5%
+27.4%
+18.6%
+(2000 hrs)
+Research)
+English broadcast
+50
+17.5%
+18.8%
 news (IBM)
-
-Google voice 5.870 12.3% 16.0%
-
-search (and fating) (295,870 hrs)
-
+Google voice
+5,870
+12.3%
+search
+(and falling)
+16.0%
+(>>5.870 hrs)
 (android 4.1)
-
 <utterances>
  <utterance number= 50 start=0:03:33 end= 0:03:38
  the machine learning algorithms. This is done in a lot of science.

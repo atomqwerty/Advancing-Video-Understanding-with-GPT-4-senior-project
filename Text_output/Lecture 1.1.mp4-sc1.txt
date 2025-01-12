@@ -1,16 +1,11 @@
 Scene: 1 timestamp: 00:00:00.000 - 00:00:20.533 
 Neural Networks for Machine Learning
-
 Lecture 1a
 Why do we need machine learning?
-
 Geoffrey Hinton
 with
-
 Nitish Srivastava
 Kevin Swersky
-
-
 <utterances>
  <utterance number= 1 start=0:00:00 end= 0:00:04
  Hello. Welcome to the Coursera course on neural

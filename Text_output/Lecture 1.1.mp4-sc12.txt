@@ -1,7 +1,21 @@
 Scene: 12 timestamp: 00:10:54.467 - 00:11:55.667 
 Some examples from an earlier version of the net
-
-
+quail
+Snowplow
+scabbard
+otter
+snowplow
+earthworm
+السقاي
+ruffed grouse
+drilling platform
+Meboat
+guillotine
+arangutan
+partridge
+garbage truck
+broom
+50%
 <utterances>
  <utterance number= 158 start=0:11:04 end= 0:11:14
  of binary neurons to take some acoustic frames and make bets about the labels.

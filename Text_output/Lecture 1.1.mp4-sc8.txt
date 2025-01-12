@@ -1,18 +1,21 @@
 Scene: 8 timestamp: 00:06:57.867 - 00:08:19.533 
+•
+•
 Some examples of tasks best solved by learning
-
-+ Recognizing pattems:
-— Objects in real scenes
-— Facial identities or facial expressions
-— Spoken words
-+ Recognizing anomalies:
-— Unusual sequences of credit card transactions
-— Unusual patterns of sensor readings in a nuclear power plant
-+ Prediction:
-— Future stock prices or currency exchange rates
-— Which movies will a person like?
-
-
+Recognizing pattems:
+-Objects in real scenes
+- Facial identities or facial expressions
+- Spoken words
+Recognizing anomalies:
+-
+Unusual sequences of credit card transactions
+Unusual patterns of sensor readings in a nuclear power plant
+Prediction:
+-
+-
+-
+Future stock prices or currency exchange rates
+Which movies will a person like?
 <utterances>
  <utterance number= 99 start=0:06:59 end= 0:07:03
  These are images from the test set that it's never seen before.

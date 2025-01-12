@@ -1,17 +1,18 @@
 Scene: 9 timestamp: 00:08:19.533 - 00:08:44.333 
+•
 A standard example of machine learning
-
-Alot of genetics is done on fruit flies.
-— They are convenient because they breed fast.
-— We already know a lot about them.
-The MNIST database of hand-written digits is the the machine leaming
+A lot of genetics is done on fruit flies.
+They are convenient because they breed fast.
+We already know a lot about them.
+The MNIST database of hand-written digits is the the machine learning
 equivalent of fruit flies.
-~ They are publicly available and we can learn them quite fast in a
+-
+-
+They are publicly available and we can learn them quite fast in a
 moderate-sized neural net.
-— We know a huge amount about how well various machine learning
+We know a huge amount about how well various machine learning
 methods do on MNIST.
 We will use MNIST as our standard task.
-
 <utterances>
  <utterance number= 121 start=0:08:20 end= 0:08:25
  If you look on the left, I would have said microwave was my first answer.

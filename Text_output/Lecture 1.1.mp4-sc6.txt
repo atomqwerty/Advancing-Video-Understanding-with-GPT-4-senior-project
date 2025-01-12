@@ -1,22 +1,21 @@
 Scene: 6 timestamp: 00:04:29.867 - 00:05:39.867 
+•
+•
 What is Machine Learning?
-
-Its very hard to write programs that solve problems like recognizing a
-three-dimensional abject from a novel viewpoint in new lighting
+It is very hard to write programs that solve problems like recognizing a
+three-dimensional object from a novel viewpoint in new lighting
 conditions in a cluttered scene.
-— We don’ t know what program to write because we don’ t know
-how its done in our brain
-— Even if we had a good idea about how to do it, the program might
+-
+We don't know what program to write because we don't know
+how its done in our brain.
+-Even if we had a good idea about how to do it, the program might
 be horrendously complicated.
-
-Its hard to write a program te compute the probability that a credit
+It is hard to write a program to compute the probability that a credit
 card transaction is fraudulent.
-
-— There may not be any rules that are both simple and reliable. We
+-
+There may not be any rules that are both simple and reliable. We
 need to combine a very large number of weak rules.
-
-— Fraud is a moving target. The program needs to keep changing.
-
+Fraud is a moving target. The program needs to keep changing.
 <utterances>
  <utterance number= 64 start=0:04:34 end= 0:04:39
  These are ones that were correctly recognized by neural net the first time it

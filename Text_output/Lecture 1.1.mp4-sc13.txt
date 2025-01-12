@@ -1,10 +1,23 @@
 Scene: 13 timestamp: 00:11:55.667 - 00:13:14.600 
+Mo
+shwasher
+elect range
+shb
 It can deal with a wide range of objects
-
-tec noe tun nae ec
-esta] de tet
-
-
+electric range
+50%
+turnstile
+pnson
+dining table
+badge
+burnstile
+bulletproof vest
+bulletproof vest
+polo shirt
+50%
+knee pad
+holster
+30%
 <utterances>
  <utterance number= 169 start=0:12:06 end= 0:12:15
  neural network, when used as the acoustic model in a speech system, reduced the error rate from 27.4% to 18.5%,Hi,

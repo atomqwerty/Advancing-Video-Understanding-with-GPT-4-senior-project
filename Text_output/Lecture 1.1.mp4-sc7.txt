@@ -1,25 +1,22 @@
 Scene: 7 timestamp: 00:05:39.867 - 00:06:57.867 
+•
+•
 The Machine Learning Approach
-
-+ Instead of writing a program by hand for each specific task, we collect
+Instead of writing a program by hand for each specific task, we collect
 lots of examples that specify the correct output for a given input.
-
-« Amachine leaming algorithm then takes these examples and produces
+A machine learning algorithm then takes these examples and produces
 a program that does the job.
-
-— The program produced by the learning algorithm may look very
-different from a typical hand-written program. I{ may contain millions
+- The program produced by the learning algorithm may look very
+different from a typical hand-written program. It may contain millions
 of numbers.
-
-— If we do it right, the program works for new cases as well as the ones
+-
+-
+If we do it right, the program works for new cases as well as the ones
 we trained it on.
-
-— If the data changes the program can change too by training on the
-new data
-
-+ Massive amounts of computation are now cheaper than paying
+If the data changes the program can change too by training on the
+new data.
+Massive amounts of computation are now cheaper than paying
 someone to write a task-specific program.
-
 <utterances>
  <utterance number= 81 start=0:05:41 end= 0:05:45
  only thing we can do. It's a relatively simple thing for a machine

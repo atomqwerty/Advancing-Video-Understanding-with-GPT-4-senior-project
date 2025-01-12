@@ -43,9 +43,9 @@ if __name__ == "__main__":
 
 #=======================adjustable======================
     # Step 4.1: Generate Clip Descriptions tesseract
-    clip_descriptions = T_OCR.clip_ocr_tes(output_dir, transcript ,scenes,video_path.split('/'),prompt_path)
+    # clip_descriptions = T_OCR.clip_ocr_tes(output_dir, transcript ,scenes,video_path.split('/'),prompt_path)
     # Step 4.2: Generate Clip Descriptions google
-    # clip_descriptions = T_OCR.clip_ocr_google(output_dir, transcript ,scenes,video_path.split('/'),prompt_path)
+    clip_descriptions = T_OCR.clip_ocr_google(output_dir, transcript ,scenes,video_path.split('/'),prompt_path)
 #=======================================================
 
     print("Clip Descriptions:", clip_descriptions)

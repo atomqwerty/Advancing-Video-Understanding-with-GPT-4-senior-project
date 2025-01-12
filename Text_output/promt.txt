@@ -1,16 +1,11 @@
 Scene: 1 timestamp: 00:00:00.000 - 00:00:20.533 
 Neural Networks for Machine Learning
-
 Lecture 1a
 Why do we need machine learning?
-
 Geoffrey Hinton
 with
-
 Nitish Srivastava
 Kevin Swersky
-
-
 <utterances>
  <utterance number= 1 start=0:00:00 end= 0:00:04
  Hello. Welcome to the Coursera course on neural
@@ -27,11 +22,25 @@ Kevin Swersky
 </scene>
 </lecture>
 </course>Scene: 2 timestamp: 00:00:20.533 - 00:01:18.400 
+corkscrew
+lipstick
+screw
+ant
 It makes some really cool errors
-
+earphone
 barber chair
-
-
+drum
+cello
+armchair
+50%
+barber chair
+50%
+pitcher
+I CHITI
+measuring cup
+coffeepot
+ashcan
+50%
 <utterances>
  <utterance number= 6 start=0:00:24 end= 0:00:29
  that there's some problems where it's very hard to write the programs.
@@ -64,20 +73,19 @@ barber chair
 </scene>
 </lecture>
 </course>Scene: 3 timestamp: 00:01:18.400 - 00:02:22.200 
+•
+•
 The Speech Recognition Task
-
-+ Aspeech recognition system has several stages:
-
-— Pre-pracessing: Convert the sound wave into a vector of acoustic
+A speech recognition system has several stages:
+- Pre-processing: Convert the sound wave into a vector of acoustic
 coefficients. Extract a new vector about every 10 mille seconds.
-— The acoustic model: Use a few adjacent vectors of acoustic coefficients
-to place bets on which part of which phoneme is being spoken
-— Decoding: Find the sequence of bets that does the best job of fitting the
+- The acoustic model: Use a few adjacent vectors of acoustic coefficients
+to place bets on which part of which phoneme is being spoken.
+- Decoding: Find the sequence of bets that does the best job of fitting the
 acoustic data and also fitting a model of the kinds of things people say.
-+ Deep neural networks pioneered by George Dahl and Abdel-rahman
+Deep neural networks pioneered by George Dahl and Abdel-rahman
 Mohamed are now replacing the previous machine learning method
 for the acoustic model.
-
 <utterances>
  <utterance number= 19 start=0:01:23 end= 0:01:28
  for each specific task, for a particular task we'll collect a lot of examples that
@@ -114,35 +122,29 @@ for the acoustic model.
 </course>Scene: 4 timestamp: 00:02:22.200 - 00:03:27.533 
 Phone recognition on the TIMIT benchmark
 (Mohamed, Dahl, & Hinton, 2012)
-
 183 HMM-state labels
 not pre-trained
 2000 logistic hidden units
-
 5 more layers of
-pre-trained weights !
-
+pre-trained weights
 2000 logistic hidden units
-
 2000 logstic hidden units
-
 15 frames of 40 filterbank outputs
 + their temporal derivatives
-
-— After standard post-processing
+-
+-
+-
+After standard post-processing
 using a bi-phone model, a deep
 net with 8 layers gets 20.7% error
 rate.
-
-— The dest previous speaker-
+The best previous speaker-
 independent result on TIMIT was
 24.4% and this required averaging
 several models.
-
-— Li Deng (at MSR) realised that this
+Li Deng (at MSR) realised that this
 result could change the way
 speech recognition was done.
-
 <utterances>
  <utterance number= 33 start=0:02:23 end= 0:02:27
  Some examples of the things that are best done by using a learning algorithm are
@@ -185,28 +187,37 @@ speech recognition was done.
 </course>Scene: 5 timestamp: 00:03:27.533 - 00:04:29.867 
 Word error rates from MSR, IBM, & Google
 (Hinton et. al. IEEE Signal Processing Magazine, Nov 2012)
-
-The task Hours of Deep neural Gaussian GMM with
-
-training data network Mixture more data
+The task
+Hours of
+training data
+Deep neural
+network
+Gaussian
+Mixture
 Model
-
-Switehboard 308 18.5% 27.4% 18.6%
-
-(Microsoft {2000 hrs)
-
-Research}
-
-English broadcast $0 17.5% 18.8%
-
+GMM with
+more data
+Switchboard
+309
+(Microsoft
+18.5%
+27.4%
+18.6%
+(2000 hrs)
+Research)
+English broadcast
+50
+17.5%
+18.8%
 news (IBM)
-
-Google voice 5.870 12.3% 16.0%
-
-search (and fating) (295,870 hrs)
-
+Google voice
+5,870
+12.3%
+search
+(and falling)
+16.0%
+(>>5.870 hrs)
 (android 4.1)
-
 <utterances>
  <utterance number= 50 start=0:03:33 end= 0:03:38
  the machine learning algorithms. This is done in a lot of science.
@@ -241,24 +252,23 @@ search (and fating) (295,870 hrs)
 </scene>
 </lecture>
 </course>Scene: 6 timestamp: 00:04:29.867 - 00:05:39.867 
+•
+•
 What is Machine Learning?
-
-Its very hard to write programs that solve problems like recognizing a
-three-dimensional abject from a novel viewpoint in new lighting
+It is very hard to write programs that solve problems like recognizing a
+three-dimensional object from a novel viewpoint in new lighting
 conditions in a cluttered scene.
-— We don’ t know what program to write because we don’ t know
-how its done in our brain
-— Even if we had a good idea about how to do it, the program might
+-
+We don't know what program to write because we don't know
+how its done in our brain.
+-Even if we had a good idea about how to do it, the program might
 be horrendously complicated.
-
-Its hard to write a program te compute the probability that a credit
+It is hard to write a program to compute the probability that a credit
 card transaction is fraudulent.
-
-— There may not be any rules that are both simple and reliable. We
+-
+There may not be any rules that are both simple and reliable. We
 need to combine a very large number of weak rules.
-
-— Fraud is a moving target. The program needs to keep changing.
-
+Fraud is a moving target. The program needs to keep changing.
 <utterances>
  <utterance number= 64 start=0:04:34 end= 0:04:39
  These are ones that were correctly recognized by neural net the first time it
@@ -299,27 +309,24 @@ need to combine a very large number of weak rules.
 </scene>
 </lecture>
 </course>Scene: 7 timestamp: 00:05:39.867 - 00:06:57.867 
+•
+•
 The Machine Learning Approach
-
-+ Instead of writing a program by hand for each specific task, we collect
+Instead of writing a program by hand for each specific task, we collect
 lots of examples that specify the correct output for a given input.
-
-« Amachine leaming algorithm then takes these examples and produces
+A machine learning algorithm then takes these examples and produces
 a program that does the job.
-
-— The program produced by the learning algorithm may look very
-different from a typical hand-written program. I{ may contain millions
+- The program produced by the learning algorithm may look very
+different from a typical hand-written program. It may contain millions
 of numbers.
-
-— If we do it right, the program works for new cases as well as the ones
+-
+-
+If we do it right, the program works for new cases as well as the ones
 we trained it on.
-
-— If the data changes the program can change too by training on the
-new data
-
-+ Massive amounts of computation are now cheaper than paying
+If the data changes the program can change too by training on the
+new data.
+Massive amounts of computation are now cheaper than paying
 someone to write a task-specific program.
-
 <utterances>
  <utterance number= 81 start=0:05:41 end= 0:05:45
  only thing we can do. It's a relatively simple thing for a machine
@@ -362,20 +369,23 @@ someone to write a task-specific program.
 </scene>
 </lecture>
 </course>Scene: 8 timestamp: 00:06:57.867 - 00:08:19.533 
+•
+•
 Some examples of tasks best solved by learning
-
-+ Recognizing pattems:
-— Objects in real scenes
-— Facial identities or facial expressions
-— Spoken words
-+ Recognizing anomalies:
-— Unusual sequences of credit card transactions
-— Unusual patterns of sensor readings in a nuclear power plant
-+ Prediction:
-— Future stock prices or currency exchange rates
-— Which movies will a person like?
-
-
+Recognizing pattems:
+-Objects in real scenes
+- Facial identities or facial expressions
+- Spoken words
+Recognizing anomalies:
+-
+Unusual sequences of credit card transactions
+Unusual patterns of sensor readings in a nuclear power plant
+Prediction:
+-
+-
+-
+Future stock prices or currency exchange rates
+Which movies will a person like?
 <utterances>
  <utterance number= 99 start=0:06:59 end= 0:07:03
  These are images from the test set that it's never seen before.
@@ -428,19 +438,20 @@ Some examples of tasks best solved by learning
 </scene>
 </lecture>
 </course>Scene: 9 timestamp: 00:08:19.533 - 00:08:44.333 
+•
 A standard example of machine learning
-
-Alot of genetics is done on fruit flies.
-— They are convenient because they breed fast.
-— We already know a lot about them.
-The MNIST database of hand-written digits is the the machine leaming
+A lot of genetics is done on fruit flies.
+They are convenient because they breed fast.
+We already know a lot about them.
+The MNIST database of hand-written digits is the the machine learning
 equivalent of fruit flies.
-~ They are publicly available and we can learn them quite fast in a
+-
+-
+They are publicly available and we can learn them quite fast in a
 moderate-sized neural net.
-— We know a huge amount about how well various machine learning
+We know a huge amount about how well various machine learning
 methods do on MNIST.
 We will use MNIST as our standard task.
-
 <utterances>
  <utterance number= 121 start=0:08:20 end= 0:08:25
  If you look on the left, I would have said microwave was my first answer.
@@ -459,14 +470,14 @@ We will use MNIST as our standard task.
 </scene>
 </lecture>
 </course>Scene: 10 timestamp: 00:08:44.333 - 00:09:18.800 
-It is very hard to say what makes a2
-20a AALD
-O%eaeo 2 als|>l7
-ae@7 9d TEDSS
-2L2\77N71229
-bDEaGSFI4GAP?
-
-
+It is very hard to say what makes a 2
+0001
+011(1112
+zze
+222323
+3444445535
+6687777888
+888894999
 <utterances>
  <utterance number= 127 start=0:08:45 end= 0:08:50
  And it makes some very cool errors. If you look at the image on the left, it's
@@ -491,22 +502,19 @@ bDEaGSFI4GAP?
 </scene>
 </lecture>
 </course>Scene: 11 timestamp: 00:09:18.800 - 00:10:54.467 
+•
 Beyond MNIST: The ImageNet task
-
-+ 1000 different object classes in 1.3 million high-resolution training images
+1000 different object classes in 1.3 million high-resolution training images
 from the web.
-
-— Best system in 2010 competition got 47% error for its first choice and
-25% error for its top § choices.
-
-+ Jitendra Malik (an eminent neural net sceptic) said that this competition is
+- Best system in 2010 competition got 47% error for its first choice and
+25% error for its top 5 choices.
+Jitendra Malik (an eminent neural net sceptic) said that this competition is
 a good test of whether deep neural networks work well for object
 recognition.
-
-— Avery deep neural net (Krizhevsky et. al. 2012) gets less that 40%
-error for its first choice and less than 20% for its top 5 choices.
-{see lecture 5).
-
+-
+A very deep neural net (Krizhevsky et. al. 2012) gets less that 40%
+error for its first choice and less than 20% for its top 5 choices
+(see lecture 5).
 <utterances>
  <utterance number= 136 start=0:09:20 end= 0:09:24
  what is the difference between a sound wave and a speech recognition system?
@@ -558,8 +566,22 @@ error for its first choice and less than 20% for its top 5 choices.
 </lecture>
 </course>Scene: 12 timestamp: 00:10:54.467 - 00:11:55.667 
 Some examples from an earlier version of the net
-
-
+quail
+Snowplow
+scabbard
+otter
+snowplow
+earthworm
+السقاي
+ruffed grouse
+drilling platform
+Meboat
+guillotine
+arangutan
+partridge
+garbage truck
+broom
+50%
 <utterances>
  <utterance number= 158 start=0:11:04 end= 0:11:14
  of binary neurons to take some acoustic frames and make bets about the labels.
@@ -588,12 +610,25 @@ Some examples from an earlier version of the net
 </scene>
 </lecture>
 </course>Scene: 13 timestamp: 00:11:55.667 - 00:13:14.600 
+Mo
+shwasher
+elect range
+shb
 It can deal with a wide range of objects
-
-tec noe tun nae ec
-esta] de tet
-
-
+electric range
+50%
+turnstile
+pnson
+dining table
+badge
+burnstile
+bulletproof vest
+bulletproof vest
+polo shirt
+50%
+knee pad
+holster
+30%
 <utterances>
  <utterance number= 169 start=0:12:06 end= 0:12:15
  neural network, when used as the acoustic model in a speech system, reduced the error rate from 27.4% to 18.5%,Hi,

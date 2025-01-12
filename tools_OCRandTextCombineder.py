@@ -30,7 +30,7 @@ def frame_extracter(video):
 from google.cloud import vision
 import os 
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"C:\Users\BOKI\Downloads\rag-for-video-lectures-5da7f3f48b27.json"
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"rag-for-video-lectures-5da7f3f48b27.json"
 
 def detect_text_from_memory(image):
     """Detects text in an image loaded into memory using Google Vision API."""
