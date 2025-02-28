@@ -1,37 +1,18 @@
 Scene: 5 timestamp: 00:03:27.533 - 00:04:29.867 
-Word error rates from MSR, IBM, & Google
-(Hinton et. al. IEEE Signal Processing Magazine, Nov 2012)
-The task
-Hours of
-training data
-Deep neural
-network
-Gaussian
-Mixture
-Model
-GMM with
-more data
-Switchboard
-309
-(Microsoft
-18.5%
-27.4%
-18.6%
-(2000 hrs)
-Research)
-English broadcast
-50
-17.5%
-18.8%
-news (IBM)
-Google voice
-5,870
-12.3%
-search
-(and falling)
-16.0%
-(>>5.870 hrs)
-(android 4.1)
+•
+A standard example of machine learning
+A lot of genetics is done on fruit flies.
+They are convenient because they breed fast.
+We already know a lot about them.
+The MNIST database of hand-written digits is the the machine learning
+equivalent of fruit flies.
+-
+-
+They are publicly available and we can learn them quite fast in a
+moderate-sized neural net.
+We know a huge amount about how well various machine learning
+methods do on MNIST.
+We will use MNIST as our standard task.
 <utterances>
  <utterance number= 50 start=0:03:33 end= 0:03:38
  the machine learning algorithms. This is done in a lot of science.

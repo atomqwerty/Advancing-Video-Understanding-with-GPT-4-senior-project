@@ -1,21 +1,29 @@
 Scene: 12 timestamp: 00:10:54.467 - 00:11:55.667 
-Some examples from an earlier version of the net
-quail
-Snowplow
-scabbard
-otter
-snowplow
-earthworm
-السقاي
-ruffed grouse
-drilling platform
-Meboat
-guillotine
-arangutan
-partridge
-garbage truck
-broom
-50%
+Phone recognition on the TIMIT benchmark
+(Mohamed, Dahl, & Hinton, 2012)
+183 HMM-state labels
+not pre-trained
+2000 logistic hidden units
+5 more layers of
+pre-trained weights
+2000 logistic hidden units
+2000 logstic hidden units
+15 frames of 40 filterbank outputs
++ their temporal derivatives
+-
+-
+-
+After standard post-processing
+using a bi-phone model, a deep
+net with 8 layers gets 20.7% error
+rate.
+The best previous speaker-
+independent result on TIMIT was
+24.4% and this required averaging
+several models.
+Li Deng (at MSR) realised that this
+result could change the way
+speech recognition was done.
 <utterances>
  <utterance number= 158 start=0:11:04 end= 0:11:14
  of binary neurons to take some acoustic frames and make bets about the labels.
@@ -35,10 +43,8 @@ broom
  The best previous result on that benchmark for speaker independent recognition was
 <utterance number= 166 start=0:11:40 end= 0:11:47
  24.4%. And a very experienced speech researcher at Microsoft Research realized that that was a big enough
-<utterance number= 167 start=0:11:47 end= 0:11:55
+<utterance number= 167 start=0:11:47 end= 0:11:57
  improvement that probably this would change the way speech recognition systems were done, and indeed it has.
-<utterance number= 168 start=0:11:55 end= 0:12:06
- So if you look at recent results from several different leading speech groups, Microsoft showed that this kind of deep
 
 </utterance>
 </scene>

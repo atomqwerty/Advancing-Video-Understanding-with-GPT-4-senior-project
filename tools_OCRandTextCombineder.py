@@ -94,8 +94,9 @@ def clip_ocr_tes(dir,result,scene_time_stamp,video_path,prompt_path):
     # print(dir)
 
     sentence = result["segments"]
-    
-    for name in os.listdir(dir):
+    files = os.listdir(dir)
+    files_sorted = sorted(files, key=lambda x: int(x.split("_")[1].split(".")[0]))
+    for name in (files_sorted):
     # Open file
         n=0
         transcript=''
@@ -125,11 +126,13 @@ def clip_ocr_google(dir,result,scene_time_stamp,video_path,prompt_path):
     seconds = time.time()
     output = ''
     i=0
-    # print(dir)
 
     sentence = result["segments"]
     
-    for name in os.listdir(dir):
+    files = os.listdir(dir)
+    files_sorted = sorted(files, key=lambda x: int(x.split("_")[1].split(".")[0]))
+    for name in files_sorted:
+        print(name)
     # Open file
         n=0
         transcript=''
@@ -138,7 +141,7 @@ def clip_ocr_google(dir,result,scene_time_stamp,video_path,prompt_path):
             frame = frame_extracter(video_crr)
             content = cap_last_sec_google(frame)
 
-            str_crr = f"Scene: {i+1} " +f"timestamp: {scene_time_stamp[i][0]} - {scene_time_stamp[i][1]} "+'\n' + content + '\n'
+            str_crr = f"<scene: {i+1} " +f"timestamp: {scene_time_stamp[i][0]} - {scene_time_stamp[i][1]}> "+'\n' + content + '\n'
             for j in sentence :
                 n+=1
                 timestamp_start =j["start"]

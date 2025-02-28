@@ -1,48 +1,62 @@
 Scene: 13 timestamp: 00:11:55.667 - 00:13:14.600 
-Mo
-shwasher
-elect range
-shb
-It can deal with a wide range of objects
-electric range
-50%
-turnstile
-pnson
-dining table
-badge
-burnstile
-bulletproof vest
-bulletproof vest
-polo shirt
-50%
-knee pad
-holster
-30%
+Word error rates from MSR, IBM, & Google
+(Hinton et. al. IEEE Signal Processing Magazine, Nov 2012)
+The task
+Hours of
+training data
+Deep neural
+network
+Gaussian
+Mixture
+Model
+GMM with
+more data
+Switchboard
+309
+(Microsoft
+18.5%
+27.4%
+18.6%
+(2000 hrs)
+Research)
+English broadcast
+50
+17.5%
+18.8%
+news (IBM)
+Google voice
+5,870
+12.3%
+search
+(and falling)
+16.0%
+(>>5.870 hrs)
+(android 4.1)
 <utterances>
- <utterance number= 169 start=0:12:06 end= 0:12:15
- neural network, when used as the acoustic model in a speech system, reduced the error rate from 27.4% to 18.5%,Hi,
+ <utterance number= 168 start=0:11:57 end= 0:12:06
+ So if you look at recent results from several different leading speech groups, Microsoft showed that this kind of deep
+<utterance number= 169 start=0:12:06 end= 0:12:15
+ neural network, when used as the acoustic model in a speech system, reduced the error rate from 27.4% to 18.5%.
 <utterance number= 170 start=0:12:15 end= 0:12:23
- and relatively, you could view it as reducing the amount of training data you needed from 2,000 hours down to 309 hours to get comparable performance.
+ And relatively, you could view it as reducing the amount of training data you needed from 2,000 hours down to 309 hours to get comparable performance.
 <utterance number= 171 start=0:12:23 end= 0:12:41
  IBM, which has the best system for one of the standard speech recognition tasks for large vocabulary speech recognition, showed that even its very highly tuned system that was getting 18.8% can be beaten by one of these deep neural networks.
 <utterance number= 172 start=0:12:41 end= 0:12:43
- And Google, fairly recently, trained a deep neural network to do the same.
-<utterance number= 173 start=0:12:43 end= 0:12:44
- And Google, fairly recently, trained a deep neural network to do the same.
-<utterance number= 174 start=0:12:44 end= 0:12:45
- And Google, fairly recently, trained a deep neural network to do the same.
-<utterance number= 175 start=0:12:45 end= 0:12:46
- Google, fairly recently, trained a deep neural network to do the same.
-<utterance number= 176 start=0:12:46 end= 0:12:47
- And Google, fairly recently, trained a deep neural network to do the same.
-<utterance number= 177 start=0:12:47 end= 0:12:52
- So for example, in this case it was a news ad that was a little bit less than the average speech recognition time of the day, and even with your big neural network on a large amount of speech, 5,800 hours, that was still much less than they trained their Gaussian mixturing model on.
-<utterance number= 178 start=0:12:52 end= 0:12:58
+ And Google fairly recently trained a deep neural network to do the same.
+<utterance number= 173 start=0:12:43 end= 0:12:49
+ Google fairly recently trained a deep neural network on a large amount of speech, 5,800 hours.
+<utterance number= 174 start=0:12:49 end= 0:12:53
+ That was still much less than they trained their Gaussian mixture model on.
+<utterance number= 175 start=0:12:53 end= 0:12:59
  But even with much less data, it did a lot better than the technology they had before.
-<utterance number= 179 start=0:12:58 end= 0:13:04
+<utterance number= 176 start=0:12:59 end= 0:13:04
  So it reduced the error rate from 16% to 12.3%, and the error rate is still falling.
-<utterance number= 180 start=0:13:04 end= 0:13:13.900000
+<utterance number= 177 start=0:13:04 end= 0:13:12
  And in the latest Android, if you do voice search, it's using one of these deep neural networks in order to do very good speech recognition.
+<utterance number= 178 start=0:13:12 end= 0:13:13
+ So it's a very good way to do that.
+<utterance number= 179 start=0:13:13 end= 0:13:14
+ Thank you.
 
 </utterance>
 </scene>

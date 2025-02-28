@@ -1,22 +1,17 @@
 Scene: 7 timestamp: 00:05:39.867 - 00:06:57.867 
 •
-•
-The Machine Learning Approach
-Instead of writing a program by hand for each specific task, we collect
-lots of examples that specify the correct output for a given input.
-A machine learning algorithm then takes these examples and produces
-a program that does the job.
-- The program produced by the learning algorithm may look very
-different from a typical hand-written program. It may contain millions
-of numbers.
+Beyond MNIST: The ImageNet task
+1000 different object classes in 1.3 million high-resolution training images
+from the web.
+- Best system in 2010 competition got 47% error for its first choice and
+25% error for its top 5 choices.
+Jitendra Malik (an eminent neural net sceptic) said that this competition is
+a good test of whether deep neural networks work well for object
+recognition.
 -
--
-If we do it right, the program works for new cases as well as the ones
-we trained it on.
-If the data changes the program can change too by training on the
-new data.
-Massive amounts of computation are now cheaper than paying
-someone to write a task-specific program.
+A very deep neural net (Krizhevsky et. al. 2012) gets less that 40%
+error for its first choice and less than 20% for its top 5 choices
+(see lecture 5).
 <utterances>
  <utterance number= 81 start=0:05:41 end= 0:05:45
  only thing we can do. It's a relatively simple thing for a machine

@@ -36,10 +36,10 @@ if __name__ == "__main__":
     clip_paths = T_sceneDet.split_video(video_path, scenes, output_dir)
 
     # # Step 3: Speech Recognition using Whisper-Timestamped
-    # transcript = T_speechRec.speech_recognition(video_path, json_path)
+    transcript = T_speechRec.speech_recognition(video_path, json_path)
 
     # Skip step 3
-    transcript = T_speechRec.skip_speech_recognition(json_path)
+    # transcript = T_speechRec.skip_speech_recognition(json_path)
 
 #=======================adjustable======================
     # Step 4.1: Generate Clip Descriptions tesseract

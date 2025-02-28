@@ -1,23 +1,21 @@
 Scene: 2 timestamp: 00:00:20.533 - 00:01:18.400 
-corkscrew
-lipstick
-screw
-ant
-It makes some really cool errors
-earphone
-barber chair
-drum
-cello
-armchair
-50%
-barber chair
-50%
-pitcher
-I CHITI
-measuring cup
-coffeepot
-ashcan
-50%
+•
+•
+What is Machine Learning?
+It is very hard to write programs that solve problems like recognizing a
+three-dimensional object from a novel viewpoint in new lighting
+conditions in a cluttered scene.
+-
+We don't know what program to write because we don't know
+how its done in our brain.
+-Even if we had a good idea about how to do it, the program might
+be horrendously complicated.
+It is hard to write a program to compute the probability that a credit
+card transaction is fraudulent.
+-
+There may not be any rules that are both simple and reliable. We
+need to combine a very large number of weak rules.
+Fraud is a moving target. The program needs to keep changing.
 <utterances>
  <utterance number= 6 start=0:00:24 end= 0:00:29
  that there's some problems where it's very hard to write the programs.
