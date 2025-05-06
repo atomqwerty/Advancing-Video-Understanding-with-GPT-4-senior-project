@@ -4391,3 +4391,4 @@ rag-for-video-lectures-5da7f3f48b27.json
 .conda/vcruntime140_1.dll
 .conda/vcruntime140_threads.dll
 .conda/zlib.dll
+*.mp4
