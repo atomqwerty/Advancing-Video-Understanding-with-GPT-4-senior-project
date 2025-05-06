@@ -9,3 +9,7 @@ opencv-python
 pytesseract
 moviepy
 google-cloud-vision
+pandas
+bert_score
+deepeval.metrics
+deepeval.test_case
