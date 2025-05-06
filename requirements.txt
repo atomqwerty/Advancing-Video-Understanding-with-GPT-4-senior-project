@@ -4,14 +4,8 @@ ffmpeg-python
 whisper-timestamped
 matplotlib
 onnxruntime
-torchaudio
 openai
 opencv-python
 pytesseract
-langchain
-langchain-community 
-langchain-core
-langchain_openai
-scenedetect
-pytesseract
+moviepy
 google-cloud-vision
