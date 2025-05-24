@@ -1,4 +1,4 @@
-import whisper_timestamped 
+import whisper_timestamped as whisper
 import json
 
 def dump_json(name, content):
@@ -9,7 +9,7 @@ def dump_json(name, content):
     
 def speech_recognition(video_path,file_name):
     try:
-        model = whisper_timestamped.load_model("large", device="cpu")
+        model = whisper.load_model("tiny", device="cpu")
         result = model.transcribe(video_path,language="en")
         
         # save json file

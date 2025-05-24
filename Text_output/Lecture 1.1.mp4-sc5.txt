@@ -1,4 +1,4 @@
-Scene: 5 timestamp: 00:03:27.533 - 00:04:29.867 
+<scene: 5 timestamp: 00:03:27.533 - 00:04:29.867> 
 •
 A standard example of machine learning
 A lot of genetics is done on fruit flies.
@@ -14,34 +14,26 @@ We know a huge amount about how well various machine learning
 methods do on MNIST.
 We will use MNIST as our standard task.
 <utterances>
- <utterance number= 50 start=0:03:33 end= 0:03:38
- the machine learning algorithms. This is done in a lot of science.
-<utterance number= 51 start=0:03:38 end= 0:03:43
- In genetics, for example, a lot of genetics is done on fruit flies.
-<utterance number= 52 start=0:03:43 end= 0:03:47
- And the reason is they're convenient. They breed fast.
-<utterance number= 53 start=0:03:47 end= 0:03:51
- And a lot is already known about the genetics of fruit flies.
-<utterance number= 54 start=0:03:51 end= 0:03:57
- The MNIST database of handwritten digits is the machine learning algorithm that
-<utterance number= 55 start=0:03:57 end= 0:04:00
- is the machine learning equivalent of fruit flies.
-<utterance number= 56 start=0:04:00 end= 0:04:05
- It's publicly available. We can get machine learning algorithms to
-<utterance number= 57 start=0:04:05 end= 0:04:09
- learn how to recognize these handwritten digits quite quickly.
-<utterance number= 58 start=0:04:09 end= 0:04:14
- So, it's easy to try lots of variations. And we know huge amounts about how well
-<utterance number= 59 start=0:04:14 end= 0:04:17
- different machine learning methods do on MNIST.
-<utterance number= 60 start=0:04:17 end= 0:04:21
- And in particular, the different machine learning methods were implemented by
-<utterance number= 61 start=0:04:21 end= 0:04:25
- people who believed in them. So, we can rely on those results.
-<utterance number= 62 start=0:04:25 end= 0:04:29
- So, for all those reasons, we're going to use MNIST as our standard task.
-<utterance number= 63 start=0:04:29 end= 0:04:34
- Here's an example of some of the digits in MNIST.
+ <utterance number= 30 start=0:03:28 end= 0:03:37
+ So in this course, I'm going to use a standard example for explaining a lot of the machine learning algorithms.
+<utterance number= 31 start=0:03:37 end= 0:03:43
+ This is done in a lot of science. In genetics for example, a lot of genetics is done on fruit flies.
+<utterance number= 32 start=0:03:44 end= 0:03:52
+ And the reason is their convenient. They breed fast and a lot is already known about the genesis of fruit flies.
+<utterance number= 33 start=0:03:52 end= 0:04:00
+ The emnis database of handwritten digits is the machine learning equivalent of fruit flies.
+<utterance number= 34 start=0:04:00 end= 0:04:02
+ It's publicly available.
+<utterance number= 35 start=0:04:02 end= 0:04:09
+ We can get machine learning algorithms to learn how to recognize these handwritten digits quite quickly.
+<utterance number= 36 start=0:04:09 end= 0:04:12
+ So it's easy to try lots of variations.
+<utterance number= 37 start=0:04:12 end= 0:04:17
+ And we know huge amounts about how well different machine learning methods do on emnist.
+<utterance number= 38 start=0:04:17 end= 0:04:25
+ And in particular, the different machine learning methods were implemented by people who believed in them, so we can rely on those results.
+<utterance number= 39 start=0:04:25 end= 0:04:30
+ So for all those reasons, we're going to use emnist as our standard task.
 
 </utterance>
 </scene>

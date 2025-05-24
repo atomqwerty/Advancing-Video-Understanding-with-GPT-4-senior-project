@@ -1,15 +1,9 @@
 import os
 import key
-from langchain_community.chat_models import ChatOpenAI
 
 import tools_SceneDetector as T_sceneDet
 import tools_SpeechRecognitor as T_speechRec
 import tools_OCRandTextCombineder as T_OCR
-import Model 
-
-os.environ["OPENAI_API_KEY"] = key.API_KEY
-llm=ChatOpenAI()
-
 # Step 1: Scene Detection
 
 # Step 2: Split Video into Multiple Clips
@@ -30,16 +24,16 @@ if __name__ == "__main__":
     test=False
     # Step 1: Scene Detection
     scenes = T_sceneDet.scene_detection(video_path)
-    # print("Detected scenes:", scenes)
+    print("Detected scenes:", scenes)
 
     # Step 2: Split Video into Multiple Clips
     clip_paths = T_sceneDet.split_video(video_path, scenes, output_dir)
 
-    # # Step 3: Speech Recognition using Whisper-Timestamped
-    transcript = T_speechRec.speech_recognition(video_path, json_path)
-
+    # Step 3: Speech Recognition using Whisper-Timestamped
+    # transcript = T_speechRec.speech_recognition(video_path, json_path)
+    # print("transcript:",transcript)
     # Skip step 3
-    # transcript = T_speechRec.skip_speech_recognition(json_path)
+    transcript = T_speechRec.skip_speech_recognition(json_path)
 
 #=======================adjustable======================
     # Step 4.1: Generate Clip Descriptions tesseract
@@ -48,12 +42,12 @@ if __name__ == "__main__":
     clip_descriptions = T_OCR.clip_ocr_google(output_dir, transcript ,scenes,video_path.split('/'),prompt_path)
 #=======================================================
 
-    print("Clip Descriptions:", clip_descriptions)
-    # write_txt(clip_descriptions,"clip_descriptions")
+    # print("Clip Descriptions:", clip_descriptions)
+    # # write_txt(clip_descriptions,"clip_descriptions")
     
-    # Step 6: Create Persona
-    T_OCR.write_txt(clip_descriptions,prompt_path+'\\promt')
+    # # Step 6: Create Persona
+    # T_OCR.write_txt(clip_descriptions,prompt_path+'\\promt')
     # Step 7: Chat
     # Model.main("Text_output")
     # clear clips
-    T_sceneDet.clear_dir(output_dir)
+    # T_sceneDet.clear_dir(output_dir)

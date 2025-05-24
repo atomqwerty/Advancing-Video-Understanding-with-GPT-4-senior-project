@@ -1,4 +1,4 @@
-Scene: 13 timestamp: 00:11:55.667 - 00:13:14.600 
+<scene: 13 timestamp: 00:11:55.667 - 00:13:14.600> 
 Word error rates from MSR, IBM, & Google
 (Hinton et. al. IEEE Signal Processing Magazine, Nov 2012)
 The task
@@ -33,30 +33,24 @@ search
 (>>5.870 hrs)
 (android 4.1)
 <utterances>
- <utterance number= 168 start=0:11:57 end= 0:12:06
- So if you look at recent results from several different leading speech groups, Microsoft showed that this kind of deep
-<utterance number= 169 start=0:12:06 end= 0:12:15
- neural network, when used as the acoustic model in a speech system, reduced the error rate from 27.4% to 18.5%.
-<utterance number= 170 start=0:12:15 end= 0:12:23
- And relatively, you could view it as reducing the amount of training data you needed from 2,000 hours down to 309 hours to get comparable performance.
-<utterance number= 171 start=0:12:23 end= 0:12:41
- IBM, which has the best system for one of the standard speech recognition tasks for large vocabulary speech recognition, showed that even its very highly tuned system that was getting 18.8% can be beaten by one of these deep neural networks.
-<utterance number= 172 start=0:12:41 end= 0:12:43
- And Google fairly recently trained a deep neural network to do the same.
-<utterance number= 173 start=0:12:43 end= 0:12:49
- Google fairly recently trained a deep neural network on a large amount of speech, 5,800 hours.
-<utterance number= 174 start=0:12:49 end= 0:12:53
- That was still much less than they trained their Gaussian mixture model on.
-<utterance number= 175 start=0:12:53 end= 0:12:59
+ <utterance number= 110 start=0:11:57 end= 0:12:07
+ So, if you look at recent results from several different leading speech groups, Microsoft showed that this kind of deep neural network,
+<utterance number= 111 start=0:12:07 end= 0:12:14
+ when used as the acoustic model in a speech system, reduced the error rate from 37.4% to 18.5%.
+<utterance number= 112 start=0:12:14 end= 0:12:24
+ Or alternatively, you could view it as reducing the amount of training data you needed from 2000 hours down to 3009 hours to get comparable performance.
+<utterance number= 113 start=0:12:24 end= 0:12:42
+ IBM, which has the best system for one of the standard speech recognition tasks for large recovery speech recognition, showed that even its very highly tuned system that was getting 18.8% can be beaten by one of these deep neural networks.
+<utterance number= 114 start=0:12:42 end= 0:12:49
+ And Google, fairly recently, trained deep neural network on a large amount of speech, 5,800 hours.
+<utterance number= 115 start=0:12:49 end= 0:12:53
+ That was still much less than their trained, they got to in mixumod along.
+<utterance number= 116 start=0:12:53 end= 0:12:59
  But even with much less data, it did a lot better than the technology they had before.
-<utterance number= 176 start=0:12:59 end= 0:13:04
- So it reduced the error rate from 16% to 12.3%, and the error rate is still falling.
-<utterance number= 177 start=0:13:04 end= 0:13:12
+<utterance number= 117 start=0:12:59 end= 0:13:04
+ So, it reduced the error rate from 16% to 12.3% and the error rate is still falling.
+<utterance number= 118 start=0:13:04 end= 0:13:14
  And in the latest Android, if you do voice search, it's using one of these deep neural networks in order to do very good speech recognition.
-<utterance number= 178 start=0:13:12 end= 0:13:13
- So it's a very good way to do that.
-<utterance number= 179 start=0:13:13 end= 0:13:14
- Thank you.
 
 </utterance>
 </scene>

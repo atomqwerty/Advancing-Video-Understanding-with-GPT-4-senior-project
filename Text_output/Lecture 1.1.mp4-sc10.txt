@@ -1,4 +1,4 @@
-Scene: 10 timestamp: 00:08:44.333 - 00:09:18.800 
+<scene: 10 timestamp: 00:08:44.333 - 00:09:18.800> 
 corkscrew
 lipstick
 screw
@@ -19,24 +19,16 @@ coffeepot
 ashcan
 50%
 <utterances>
- <utterance number= 127 start=0:08:45 end= 0:08:50
- And it makes some very cool errors. If you look at the image on the left, it's
-<utterance number= 128 start=0:08:50 end= 0:08:54
- an earphone. It doesn't get anything like an earphone.
-<utterance number= 129 start=0:08:54 end= 0:08:57
- But if you look at its fourth bet, it thinks it's an ant.
-<utterance number= 130 start=0:08:57 end= 0:09:01
- And to begin with, you think that's crazy. But then if you look at it carefully, you
-<utterance number= 131 start=0:09:01 end= 0:09:04
- can see it's a view from an ant from underneath. The eyes are looking down at
-<utterance number= 132 start=0:09:04 end= 0:09:08
- you, and you can see the antennae behind it. It's not the kind of view of an ant
-<utterance number= 133 start=0:09:08 end= 0:09:12
- you'd like to have if you were a green fly. If you look at the one on the right,
-<utterance number= 134 start=0:09:12 end= 0:09:16
- it doesn't get the right answer. But all of its answers are cylindrical
-<utterance number= 135 start=0:09:16 end= 0:09:20
- objects. Another question that I've been asked is,
+ <utterance number= 80 start=0:08:45 end= 0:08:52
+ And it makes some very cool errors. If you look at the image on the left, that's an earphone.
+<utterance number= 81 start=0:08:52 end= 0:08:57
+ It doesn't get anything like an earphone, but if you look at it as fourth bet, it thinks it's an ant.
+<utterance number= 82 start=0:08:57 end= 0:09:04
+ And to be with you, think that's crazy. But then if you look at it carefully, you can see it's a view from an ant from underneath. The eyes are looking down at you.
+<utterance number= 83 start=0:09:04 end= 0:09:10
+ And you can see the antennae behind it. It's not the kind of view of an ant you'd like to have if you were a green fly.
+<utterance number= 84 start=0:09:10 end= 0:09:19
+ If you look at the one on the right, it doesn't get the right answer, but all of his answers are cylindrical objects.
 
 </utterance>
 </scene>

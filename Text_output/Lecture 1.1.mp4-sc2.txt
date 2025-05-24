@@ -1,4 +1,4 @@
-Scene: 2 timestamp: 00:00:20.533 - 00:01:18.400 
+<scene: 2 timestamp: 00:00:20.533 - 00:01:18.400> 
 •
 •
 What is Machine Learning?
@@ -17,32 +17,24 @@ There may not be any rules that are both simple and reliable. We
 need to combine a very large number of weak rules.
 Fraud is a moving target. The program needs to keep changing.
 <utterances>
- <utterance number= 6 start=0:00:24 end= 0:00:29
- that there's some problems where it's very hard to write the programs.
-<utterance number= 7 start=0:00:29 end= 0:00:33
- Recognizing a three-dimensional object, for example, when it's from a novel
-<utterance number= 8 start=0:00:33 end= 0:00:38
- viewpoint in new lighting conditions in a cluttered scene is very hard to do.
-<utterance number= 9 start=0:00:38 end= 0:00:42
- We don't know what program to write because we don't know how it's done in
-<utterance number= 10 start=0:00:42 end= 0:00:45
- our brain. And even if we did know what program to
-<utterance number= 11 start=0:00:45 end= 0:00:50
- write, it might be that it was a horrendously complicated program.
-<utterance number= 12 start=0:00:50 end= 0:00:55
- Another example is detecting a fraudulent credit card transaction, where there may
-<utterance number= 13 start=0:00:55 end= 0:00:59
- not be any nice simple rules that will tell you it's fraudulent.
-<utterance number= 14 start=0:00:59 end= 0:01:05
+ <utterance number= 4 start=0:00:22 end= 0:00:29
+ The reason we need machine learning is that the some problems where it's very hard to write the programs.
+<utterance number= 5 start=0:00:29 end= 0:00:38
+ Recognizing a three-dimensional object, for example, when it's from a novel viewpoint in new lighting conditions in a cluttered scene, is very hard to do.
+<utterance number= 6 start=0:00:38 end= 0:00:43
+ We don't know what programs are right because we don't know how it's done in our brain.
+<utterance number= 7 start=0:00:43 end= 0:00:50
+ And even if we did know what programs are right, it might be that it was a horrendously complicated program.
+<utterance number= 8 start=0:00:51 end= 0:01:00
+ Another example is detecting a fraudulent credit card transaction, where there may not be any nice simple rules that will tell you it's fraudulent.
+<utterance number= 9 start=0:01:00 end= 0:01:05
  You really need to combine a very large number of not very reliable rules.
-<utterance number= 15 start=0:01:05 end= 0:01:10
- And also, those rules change over time because people change the tricks they use
-<utterance number= 16 start=0:01:10 end= 0:01:13
- for fraud. So, we need a complicated program that
-<utterance number= 17 start=0:01:13 end= 0:01:17
- combines unreliable rules and that we can change easily.
-<utterance number= 18 start=0:01:17 end= 0:01:23
- The machine learning approach is to say instead of writing each program by hand
+<utterance number= 10 start=0:01:05 end= 0:01:11
+ And also those rules change over time because people change the tricks they use for fraud.
+<utterance number= 11 start=0:01:11 end= 0:01:18
+ So we need a complicated program that combines unreliable rules and that we can change easily.
+<utterance number= 12 start=0:01:19 end= 0:01:33
+ The machine learning approach is to say instead of writing each program by hand for each specific task, for a particular task we're collecting a lot of examples that specify the correct output for a given input.
 
 </utterance>
 </scene>

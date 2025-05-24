@@ -1,4 +1,4 @@
-Scene: 8 timestamp: 00:06:57.867 - 00:08:19.533 
+<scene: 8 timestamp: 00:06:57.867 - 00:08:19.533> 
 Some examples from an earlier version of the net
 quail
 Snowplow
@@ -17,52 +17,32 @@ garbage truck
 broom
 50%
 <utterances>
- <utterance number= 99 start=0:06:59 end= 0:07:03
- These are images from the test set that it's never seen before.
-<utterance number= 100 start=0:07:03 end= 0:07:08
- And below the examples, I'm showing you what the neural net thought the right
-<utterance number= 101 start=0:07:08 end= 0:07:13
- answer was, where the length of the horizontal bar is how confident it was,
-<utterance number= 102 start=0:07:13 end= 0:07:18
- and the correct answer is in red. So, if you look in the middle, it correctly
-<utterance number= 103 start=0:07:18 end= 0:07:21
- identified that as a snowplow. But you can see that it's unbiased.
-<utterance number= 104 start=0:07:21 end= 0:07:24
- But you can see that its other choices were also fairly sensible.
-<utterance number= 105 start=0:07:24 end= 0:07:27
- It does look a little bit like a drilling platform.
-<utterance number= 106 start=0:07:27 end= 0:07:30
- And if you look at its third choice, a lifeboat, it actually looks very like a
-<utterance number= 107 start=0:07:30 end= 0:07:32
- lifeboat. You can see the flag on the front of the
-<utterance number= 108 start=0:07:32 end= 0:07:36
- boat and the bridge of the boat and the flag at the back and the high surf in the
-<utterance number= 109 start=0:07:36 end= 0:07:39
- background. So it's, its errors tell you a lot about
-<utterance number= 110 start=0:07:39 end= 0:07:42
- how it's doing it and they're very plausible errors.
-<utterance number= 111 start=0:07:42 end= 0:07:47
- If you look on the left, it gets it wrong, possibly because the beak of the bird is
-<utterance number= 112 start=0:07:47 end= 0:07:50
- missing and because the feathers of the bird look very like the flag of the bird.
-<utterance number= 113 start=0:07:50 end= 0:07:55
- Look very like the wet fur of an otter. But it gets it in its top five and it
-<utterance number= 114 start=0:07:55 end= 0:07:58
- does better than me. I wouldn't know if that was a quail or
-<utterance number= 115 start=0:07:58 end= 0:08:02
- a roughed grouse or a partridge. If you look on the right, it gets it
-<utterance number= 116 start=0:08:02 end= 0:08:06
- completely wrong. It a guillotine, you can see why it says
-<utterance number= 117 start=0:08:06 end= 0:08:09
- that. You can possibly see why it says orangutan
-<utterance number= 118 start=0:08:09 end= 0:08:12
- because of the sort of jungle looking background and something orange in the
-<utterance number= 119 start=0:08:12 end= 0:08:15
- middle. But it fails to get the right answer.
-<utterance number= 120 start=0:08:15 end= 0:08:19
- It can, however, deal with a wide range of different objects.
-<utterance number= 121 start=0:08:20 end= 0:08:25
- If you look on the left, I would have said microwave was my first answer.
+ <utterance number= 64 start=0:06:59 end= 0:07:03
+ These images from the test set that is never seen before.
+<utterance number= 65 start=0:07:03 end= 0:07:16
+ And below the examples, I'm showing you what the neural net thought the right answer was, where the length of the horizontal bias, how confident it was, and the correct answer is in red.
+<utterance number= 66 start=0:07:16 end= 0:07:20
+ So if you look in the middle, it correctly identified that as a snow plow.
+<utterance number= 67 start=0:07:20 end= 0:07:24
+ But you can see that it's other choices, we're also fairly sensible.
+<utterance number= 68 start=0:07:24 end= 0:07:31
+ It does look a little bit like a drilling platform. And if you look at its third choice, a lifeboat, it actually looks very like a lifeboat.
+<utterance number= 69 start=0:07:31 end= 0:07:37
+ You can see the flag on the front of the boat and the bridge of the boat and the flag at the back and the high surf in the background.
+<utterance number= 70 start=0:07:37 end= 0:07:42
+ So it's, it's errors tell you a lot about how it's doing it and they're very plausible errors.
+<utterance number= 71 start=0:07:42 end= 0:07:53
+ If you look on the left, it gets it wrong, possibly because the beak of the bird is missing and because the feathers of the bird look very like the wet fur of an auto.
+<utterance number= 72 start=0:07:53 end= 0:08:00
+ But it gets in in this top five and it does better than me. I wouldn't know if that was a quail or a roughed grass or a partridge.
+<utterance number= 73 start=0:08:00 end= 0:08:03
+ If you look on the right, it gets a completely wrong.
+<utterance number= 74 start=0:08:04 end= 0:08:13
+ It, um, agility, you can see why it says that. You can possibly see why it says orangutan because of the sort of jungle looking background is something orange in the middle.
+<utterance number= 75 start=0:08:13 end= 0:08:16
+ But it fails to get the right answer.
+<utterance number= 76 start=0:08:16 end= 0:08:25
+ It can, however, deal with a wide range of different objects. If you look on the left, I would have said micro-overs, my first answer.
 
 </utterance>
 </scene>

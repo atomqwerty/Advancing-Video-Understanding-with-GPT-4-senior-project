@@ -1,4 +1,4 @@
-moviepy
+moviepy==1.0.3
 scenedetect
 ffmpeg-python
 whisper-timestamped
@@ -12,7 +12,6 @@ langchain
 langchain-community 
 langchain-core
 langchain_openai
-moviepy
 scenedetect
 pytesseract
 google-cloud-vision

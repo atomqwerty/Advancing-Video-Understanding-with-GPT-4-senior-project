@@ -1,4 +1,4 @@
-Scene: 7 timestamp: 00:05:39.867 - 00:06:57.867 
+<scene: 7 timestamp: 00:05:39.867 - 00:06:57.867> 
 •
 Beyond MNIST: The ImageNet task
 1000 different object classes in 1.3 million high-resolution training images
@@ -13,42 +13,26 @@ A very deep neural net (Krizhevsky et. al. 2012) gets less that 40%
 error for its first choice and less than 20% for its top 5 choices
 (see lecture 5).
 <utterances>
- <utterance number= 81 start=0:05:41 end= 0:05:45
- only thing we can do. It's a relatively simple thing for a machine
-<utterance number= 82 start=0:05:45 end= 0:05:49
- learning system to do now. And to motivate the rest of the course, I
-<utterance number= 83 start=0:05:49 end= 0:05:53
- want to show you some examples of much more difficult things.
-<utterance number= 84 start=0:05:53 end= 0:05:58
- So, we now have neural nets with approaching 100 million parameters in
-<utterance number= 85 start=0:05:58 end= 0:06:05
- them that can recognize a thousand different object classes in 1.3 million
-<utterance number= 86 start=0:06:05 end= 0:06:09
- high resolution training images got from the web.
-<utterance number= 87 start=0:06:09 end= 0:06:15
- So, there was a competition in 2010 and the best system got 47% error rate if you
-<utterance number= 88 start=0:06:15 end= 0:06:20
- look at its first choice and 25% error rate if you say it got it right if it was
-<utterance number= 89 start=0:06:20 end= 0:06:22
- in its top five choices, which isn't bad for a thousand percent error rate.
-<utterance number= 90 start=0:06:22 end= 0:06:25
- Which isn't bad for a thousand different objects.
-<utterance number= 91 start=0:06:25 end= 0:06:31
- Jitendra Malik, who's an eminent neural net skeptic and a leading computer vision
-<utterance number= 92 start=0:06:31 end= 0:06:36
- researcher has said that this competition is a good test of whether deep neural
-<utterance number= 93 start=0:06:36 end= 0:06:43
- networks can work well for object recognition. And a very deep neural network can
-<utterance number= 94 start=0:06:43 end= 0:06:47
- now do considerably better than the thing that won the competition.
-<utterance number= 95 start=0:06:47 end= 0:06:51
- It can get less than 40% error for its first choice and less than 20% error for
-<utterance number= 96 start=0:06:51 end= 0:06:52
- its top five choices.
-<utterance number= 97 start=0:06:52 end= 0:06:55
- I'll describe that in much more detail in lecture five.
-<utterance number= 98 start=0:06:55 end= 0:06:59
- Here's some examples of the kinds of images you have to recognize.
+ <utterance number= 54 start=0:05:43 end= 0:05:47
+ It's a relatively simple thing for a machine learning system to do now.
+<utterance number= 55 start=0:05:47 end= 0:05:53
+ And to motivate the rest of the course, I want to show you some examples of much more difficult things.
+<utterance number= 56 start=0:05:53 end= 0:05:59
+ So we now have neural nets with approaching 100 million parameters in them.
+<utterance number= 57 start=0:05:59 end= 0:06:09
+ And that can recognize a thousand different object classes in 1.3 million high resolution training images got from the web.
+<utterance number= 58 start=0:06:09 end= 0:06:17
+ So there was a competition in 2010 and the best system got 47% error rate if you look at its first choice.
+<utterance number= 59 start=0:06:17 end= 0:06:25
+ And 25% error rate, if you say it got it right if it was in its top five choices, which isn't bad for a thousand different objects.
+<utterance number= 60 start=0:06:25 end= 0:06:39
+ Jitendromalic, who's an eminent neural net skeptic and a leading computer vision researcher, has said that this competition is a good test of whether deep neural networks can work well for object recognition.
+<utterance number= 61 start=0:06:39 end= 0:06:47
+ And a very deep neural network can now do considerably better than the thing that won the competition.
+<utterance number= 62 start=0:06:47 end= 0:06:53
+ It can get less than 40% error for its first choice and less than 20% error for its top five choices.
+<utterance number= 63 start=0:06:53 end= 0:06:59
+ I'll describe that in much more detail in lecture five. Here's some examples of the kinds of images you have to recognize.
 
 </utterance>
 </scene>

@@ -1,4 +1,4 @@
-Scene: 6 timestamp: 00:04:29.867 - 00:05:39.867 
+<scene: 6 timestamp: 00:04:29.867 - 00:05:39.867> 
 It is very hard to say what makes a 2
 0001
 011(1112
@@ -8,40 +8,34 @@ zze
 6687777888
 888894999
 <utterances>
- <utterance number= 64 start=0:04:34 end= 0:04:39
- These are ones that were correctly recognized by neural net the first time it
-<utterance number= 65 start=0:04:39 end= 0:04:43
- saw them. But they're ones where the neural net
-<utterance number= 66 start=0:04:43 end= 0:04:46
- wasn't very confident. And you can see why.
-<utterance number= 67 start=0:04:46 end= 0:04:51
- I've arranged these digits in standard scanline order.
-<utterance number= 68 start=0:04:51 end= 0:04:54
- So, zeros, then ones, then twos, and so on.
-<utterance number= 69 start=0:04:54 end= 0:04:59
- If you look at a bunch of twos, like the ones in the green rectangle, you can see
-<utterance number= 70 start=0:04:59 end= 0:05:04
- that if you knew they were a handwritten digit, you'd probably guess they were
-<utterance number= 71 start=0:05:04 end= 0:05:07
- twos. But it's very hard to say what it is that
-<utterance number= 72 start=0:05:07 end= 0:05:10
- makes them twos. There's nothing simple that they all have
-<utterance number= 73 start=0:05:10 end= 0:05:13
- in common. In particular, if you try and overlay one
-<utterance number= 74 start=0:05:13 end= 0:05:18
- on another, you'll see it doesn't fit. And even if you skew it a bit, it's very
-<utterance number= 75 start=0:05:18 end= 0:05:23
- hard to make them overlay on each other. So, a template isn't going to do the job.
-<utterance number= 76 start=0:05:23 end= 0:05:24
- And in particular, if you try and overlay one on another, you'll see it doesn't fit.
-<utterance number= 77 start=0:05:24 end= 0:05:28
- And in particular, a template is going to be very hard to find that'll fit those
-<utterance number= 78 start=0:05:28 end= 0:05:33
- twos in the green box and won't also fit the things in the red boxes.
-<utterance number= 79 start=0:05:33 end= 0:05:38
- So, that's one thing that makes recognizing handwritten digits a good task for machine
-<utterance number= 80 start=0:05:38 end= 0:05:41
- learning. Now, I don't want you to think that's the
+ <utterance number= 40 start=0:04:30 end= 0:04:34
+ Here's an example of some of the digits in emnist.
+<utterance number= 41 start=0:04:34 end= 0:04:40
+ These are ones that were correctly recognised by neural net, the first time it saw them.
+<utterance number= 42 start=0:04:41 end= 0:04:44
+ But they're ones where the neural net wasn't very confident.
+<utterance number= 43 start=0:04:44 end= 0:04:46
+ And you can see why.
+<utterance number= 44 start=0:04:46 end= 0:04:54
+ I've arranged these digits in standard scanline order, so zero is then one's end to is and so on.
+<utterance number= 45 start=0:04:54 end= 0:05:00
+ If you look at a bunch of twos, like the ones in the green rectangle, you can see that.
+<utterance number= 46 start=0:05:00 end= 0:05:05
+ If you knew they were a handwritten digit, you'd probably guess they were twos.
+<utterance number= 47 start=0:05:06 end= 0:05:09
+ But it's very hard to say what it is that makes them twos.
+<utterance number= 48 start=0:05:09 end= 0:05:12
+ There's nothing simple that they all have in common.
+<utterance number= 49 start=0:05:12 end= 0:05:17
+ In particular, if you try an overlay one on another, you'll see it doesn't fit.
+<utterance number= 50 start=0:05:17 end= 0:05:23
+ And even if you skew it a bit, it's very hard to make them overlay on each other, so template isn't going to do the job.
+<utterance number= 51 start=0:05:23 end= 0:05:33
+ And in particular, template is going to be very hard to find that it'll fit those twos in the green box and won't also fit the things in the red boxes.
+<utterance number= 52 start=0:05:33 end= 0:05:39
+ So that's one thing that makes recognising handwritten digits, a good task for machine learning.
+<utterance number= 53 start=0:05:39 end= 0:05:43
+ Now, I don't want you to think that's the only thing we can do.
 
 </utterance>
 </scene>

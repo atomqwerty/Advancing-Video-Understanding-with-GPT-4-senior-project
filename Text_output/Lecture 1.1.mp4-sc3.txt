@@ -1,4 +1,4 @@
-Scene: 3 timestamp: 00:01:18.400 - 00:02:22.200 
+<scene: 3 timestamp: 00:01:18.400 - 00:02:22.200> 
 •
 •
 The Machine Learning Approach
@@ -18,34 +18,24 @@ new data.
 Massive amounts of computation are now cheaper than paying
 someone to write a task-specific program.
 <utterances>
- <utterance number= 19 start=0:01:23 end= 0:01:28
- for each specific task, for a particular task we'll collect a lot of examples that
-<utterance number= 20 start=0:01:29 end= 0:01:32
- specify the correct output for a given input.
-<utterance number= 21 start=0:01:32 end= 0:01:37
- A machine learning algorithm then takes these examples and produces a program that
-<utterance number= 22 start=0:01:37 end= 0:01:41
- does the job. The program produced by the learning
-<utterance number= 23 start=0:01:41 end= 0:01:46
- algorithm may look very different from a typical handwritten program.
-<utterance number= 24 start=0:01:46 end= 0:01:49
- For example, it might contain millions of numbers about how you weight different
-<utterance number= 25 start=0:01:49 end= 0:01:54
- kinds of evidence. If we do it right, the program should work
-<utterance number= 26 start=0:01:54 end= 0:01:57
- for new cases as well as the ones it's trained on.
-<utterance number= 27 start=0:01:57 end= 0:01:59
- And if the data changes, it might be that the program is not working for new cases
-<utterance number= 28 start=0:01:59 end= 0:02:02
- as well as the ones it's trained on. So, if the data changes, we should be able
-<utterance number= 29 start=0:02:02 end= 0:02:07
- to change the program relatively easily by retraining it on the new data.
-<utterance number= 30 start=0:02:07 end= 0:02:12
- And now, massive amounts of computation are cheaper than paying someone to write a
-<utterance number= 31 start=0:02:12 end= 0:02:17
- program for a specific task. So, we can afford big complicated machine
-<utterance number= 32 start=0:02:17 end= 0:02:23
- learning programs to produce these task specific systems for us.
+ <utterance number= 12 start=0:01:19 end= 0:01:33
+ The machine learning approach is to say instead of writing each program by hand for each specific task, for a particular task we're collecting a lot of examples that specify the correct output for a given input.
+<utterance number= 13 start=0:01:33 end= 0:01:39
+ A machine learning algorithm then takes these examples and produces a program that does the job.
+<utterance number= 14 start=0:01:39 end= 0:01:46
+ The program produced by the learning algorithm may look very different from a typical handwritten program.
+<utterance number= 15 start=0:01:46 end= 0:01:52
+ For example it might contain millions of numbers about how you wait different kinds of evidence.
+<utterance number= 16 start=0:01:52 end= 0:01:58
+ If we do it right the program should work for new cases as well as the ones it's trained on.
+<utterance number= 17 start=0:01:58 end= 0:02:07
+ And if the data changes, we should be able to change the program relatively easily by retrain it on the new data.
+<utterance number= 18 start=0:02:07 end= 0:02:13
+ And now, mass romance or computation, a cheaper than paying someone to write a program for a specific task.
+<utterance number= 19 start=0:02:13 end= 0:02:22
+ So we can afford big complicated machine learning programs to produce the task specific systems for us.
+<utterance number= 20 start=0:02:22 end= 0:02:30
+ Some examples of the things that are best done by using a learning algorithm are recognizing patterns.
 
 </utterance>
 </scene>

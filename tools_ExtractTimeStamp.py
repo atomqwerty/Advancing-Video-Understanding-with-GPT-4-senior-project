@@ -1,7 +1,11 @@
 from datetime import datetime
+import json
 import re
 
-from Model import read_queries_from_file
+def read_queries_from_file(file_path,str):
+    f = open(file_path)
+    data = json.load(f)
+    return (data[str].values())
 
 def extract_timestamps(file_path):
     # Define the regular expression pattern for timestamps

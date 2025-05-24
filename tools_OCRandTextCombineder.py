@@ -126,7 +126,7 @@ def clip_ocr_google(dir,result,scene_time_stamp,video_path,prompt_path):
     seconds = time.time()
     output = ''
     i=0
-
+    print(result)
     sentence = result["segments"]
     
     files = os.listdir(dir)

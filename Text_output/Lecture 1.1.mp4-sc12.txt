@@ -1,4 +1,4 @@
-Scene: 12 timestamp: 00:10:54.467 - 00:11:55.667 
+<scene: 12 timestamp: 00:10:54.467 - 00:11:55.667> 
 Phone recognition on the TIMIT benchmark
 (Mohamed, Dahl, & Hinton, 2012)
 183 HMM-state labels
@@ -25,26 +25,22 @@ Li Deng (at MSR) realised that this
 result could change the way
 speech recognition was done.
 <utterances>
- <utterance number= 158 start=0:11:04 end= 0:11:14
- of binary neurons to take some acoustic frames and make bets about the labels.
-<utterance number= 159 start=0:11:14 end= 0:11:18
- They were doing it on a fairly small database, and they only used 183 alternative
-<utterance number= 160 start=0:11:18 end= 0:11:19
- labels.
-<utterance number= 161 start=0:11:19 end= 0:11:22
- And to get their system to work well, they did some pre-training, which will be
-<utterance number= 162 start=0:11:22 end= 0:11:25
- described in the second half of the course.
-<utterance number= 163 start=0:11:25 end= 0:11:31
- After standard post-processing, they got 20.7% error rate on a very standard
-<utterance number= 164 start=0:11:31 end= 0:11:35
- benchmark, which is kind of like the MNIST for speech.
-<utterance number= 165 start=0:11:35 end= 0:11:40
- The best previous result on that benchmark for speaker independent recognition was
-<utterance number= 166 start=0:11:40 end= 0:11:47
- 24.4%. And a very experienced speech researcher at Microsoft Research realized that that was a big enough
-<utterance number= 167 start=0:11:47 end= 0:11:57
- improvement that probably this would change the way speech recognition systems were done, and indeed it has.
+ <utterance number= 102 start=0:10:55 end= 0:11:08
+ So, Dalam Muhammad developed a system that uses many layers of binary neurons.
+<utterance number= 103 start=0:11:08 end= 0:11:14
+ To take some acoustic frames and make bets about the labels.
+<utterance number= 104 start=0:11:14 end= 0:11:19
+ They were doing it on a fairly small database and they are used 183 alternative labels.
+<utterance number= 105 start=0:11:19 end= 0:11:25
+ And to get this system to well, they did some pre-training which will be described in the second half of the course.
+<utterance number= 106 start=0:11:25 end= 0:11:35
+ After standard post-processing, they got 20.7% error rate on a very standard benchmark, which is kind of like the M-nist for speech.
+<utterance number= 107 start=0:11:35 end= 0:11:41
+ The best previous result on that benchmark for speaker independent recognition was 24.4%.
+<utterance number= 108 start=0:11:41 end= 0:11:54
+ And the very experience for speech researcher at Microsoft Research realized that that was a big enough improvement that probably this would change the way speech recognition systems were done.
+<utterance number= 109 start=0:11:54 end= 0:11:56
+ And indeed it has.
 
 </utterance>
 </scene>

@@ -1,4 +1,4 @@
-Scene: 9 timestamp: 00:08:19.533 - 00:08:44.333 
+<scene: 9 timestamp: 00:08:19.533 - 00:08:44.333> 
 Mo
 shwasher
 elect range
@@ -19,18 +19,12 @@ knee pad
 holster
 30%
 <utterances>
- <utterance number= 121 start=0:08:20 end= 0:08:25
- If you look on the left, I would have said microwave was my first answer.
-<utterance number= 122 start=0:08:25 end= 0:08:29
- The labels aren't very systematic, so actually the correct answer there is
-<utterance number= 123 start=0:08:29 end= 0:08:33
- electric range and does get it in its top five.
-<utterance number= 124 start=0:08:33 end= 0:08:36
- In the middle, it's getting a turnstile, which is a distributed object.
-<utterance number= 125 start=0:08:36 end= 0:08:40
- It does, it can do more than just recognize compact things.
-<utterance number= 126 start=0:08:40 end= 0:08:45
- And it can also deal with pictures as well as real scenes, like the bulletproof vest.
+ <utterance number= 77 start=0:08:25 end= 0:08:33
+ The labels are very systematic. So actually the correct answer there is electric range and does get it in this top five.
+<utterance number= 78 start=0:08:33 end= 0:08:40
+ In the middle it's getting a turn star which is distributed object. It can do more than just recognise compact things.
+<utterance number= 79 start=0:08:40 end= 0:08:45
+ And it can also deal with pictures as well as real scenes like the bulletproof vest.
 
 </utterance>
 </scene>

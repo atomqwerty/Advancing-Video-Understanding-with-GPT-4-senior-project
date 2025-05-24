@@ -1,4 +1,4 @@
-Scene: 1 timestamp: 00:00:00.000 - 00:00:20.533 
+<scene: 1 timestamp: 00:00:00.000 - 00:00:20.533> 
 Neural Networks for Machine Learning
 Lecture 1a
 Why do we need machine learning?
@@ -7,16 +7,12 @@ with
 Nitish Srivastava
 Kevin Swersky
 <utterances>
- <utterance number= 1 start=0:00:00 end= 0:00:04
- Hello. Welcome to the Coursera course on neural
-<utterance number= 2 start=0:00:04 end= 0:00:09
- networks for machine learning. Before we get into the details of neural
-<utterance number= 3 start=0:00:09 end= 0:00:14
- network learning algorithms, I want to talk a little bit about machine learning,
-<utterance number= 4 start=0:00:14 end= 0:00:19
- why we need machine learning, the kinds of things we use it for, and show you some
-<utterance number= 5 start=0:00:19 end= 0:00:24
- examples of what it can do. So, the reason we need machine learning is
+ <utterance number= 1 start=0:00:00 end= 0:00:07
+ Hello, welcome to the Course Erich course on your all networks for machine learning.
+<utterance number= 2 start=0:00:07 end= 0:00:14
+ Before we get into the details of neural network learning algorithms, I want to talk a little bit about machine learning.
+<utterance number= 3 start=0:00:14 end= 0:00:22
+ Why we need machine learning? The kinds of things we use it for and show you some examples of what it can do.
 
 </utterance>
 </scene>

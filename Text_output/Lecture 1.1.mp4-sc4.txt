@@ -1,4 +1,4 @@
-Scene: 4 timestamp: 00:02:22.200 - 00:03:27.533 
+<scene: 4 timestamp: 00:02:22.200 - 00:03:27.533> 
 •
 •
 Some examples of tasks best solved by learning
@@ -17,40 +17,24 @@ Prediction:
 Future stock prices or currency exchange rates
 Which movies will a person like?
 <utterances>
- <utterance number= 33 start=0:02:23 end= 0:02:27
- Some examples of the things that are best done by using a learning algorithm are
-<utterance number= 34 start=0:02:27 end= 0:02:29
- recognizing data.
-<utterance number= 35 start=0:02:29 end= 0:02:33
- There's also recognizing patterns. So, for example, objects in real scenes.
-<utterance number= 36 start=0:02:33 end= 0:02:37
- Or the identities or expressions of people's faces.
-<utterance number= 37 start=0:02:37 end= 0:02:44
- Or spoken words. There's also recognizing anomalies.
-<utterance number= 38 start=0:02:44 end= 0:02:49
- So, an unusual sequence of credit card transactions would be an anomaly.
-<utterance number= 39 start=0:02:49 end= 0:02:54
- Another example of an anomaly would be an unusual pattern of sensor readings in a
-<utterance number= 40 start=0:02:54 end= 0:02:57
- nuclear power plant. And you wouldn't really want to have to
-<utterance number= 41 start=0:02:57 end= 0:02:59
- deal with those by doing sequence analysis.
-<utterance number= 42 start=0:02:59 end= 0:03:02
- And then there's supervised learning where you look at the ones that blow up
-<utterance number= 43 start=0:03:02 end= 0:03:06
- and see what, what caused them to blow up. You'd really like to recognize that
-<utterance number= 44 start=0:03:06 end= 0:03:10
- something funny is happening without having any supervision signal.
-<utterance number= 45 start=0:03:10 end= 0:03:15
- It's just not behaving in its normal way. And then there's prediction.
-<utterance number= 46 start=0:03:15 end= 0:03:20
- So, typically predicting future stock prices or currency exchange rates.
-<utterance number= 47 start=0:03:20 end= 0:03:24
- Or predicting which movies a person will like from knowing which other movies they
-<utterance number= 48 start=0:03:24 end= 0:03:27
- like and which movies a lot of other people liked.
-<utterance number= 49 start=0:03:27 end= 0:03:33
- So, in this course, I'm going to use a standard example for explaining a lot of
+ <utterance number= 21 start=0:02:30 end= 0:02:40
+ So for example objects in real scenes or the identities or expressions of people's faces or spoken words.
+<utterance number= 22 start=0:02:40 end= 0:02:44
+ There's also recognizing anomalies.
+<utterance number= 23 start=0:02:44 end= 0:02:49
+ So an unusual sequence of credit card transactions would be anonymly.
+<utterance number= 24 start=0:02:49 end= 0:02:55
+ Another example of anonymly would be an unusual pattern of sensor readings in a nuclear power plant.
+<utterance number= 25 start=0:02:55 end= 0:03:04
+ And you wouldn't really want to have to deal with those by doing supervised learning where you look at the ones that blow up and see what, what cause them to blow up.
+<utterance number= 26 start=0:03:04 end= 0:03:09
+ You'd really like to recognize that something funny is happening without having any supervision signal.
+<utterance number= 27 start=0:03:09 end= 0:03:12
+ It's just not behaving in its normal way.
+<utterance number= 28 start=0:03:12 end= 0:03:22
+ And then this prediction, so typically predicting future stock prices or currency exchange rates, or predicting which movies are person were like,
+<utterance number= 29 start=0:03:22 end= 0:03:28
+ from knowing which other movies they like and which movies a lot of other people like.
 
 </utterance>
 </scene>

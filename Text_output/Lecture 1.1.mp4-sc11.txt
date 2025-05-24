@@ -1,4 +1,4 @@
-Scene: 11 timestamp: 00:09:18.800 - 00:10:54.467 
+<scene: 11 timestamp: 00:09:18.800 - 00:10:54.467> 
 •
 •
 The Speech Recognition Task
@@ -13,50 +13,40 @@ Deep neural networks pioneered by George Dahl and Abdel-rahman
 Mohamed are now replacing the previous machine learning method
 for the acoustic model.
 <utterances>
- <utterance number= 136 start=0:09:20 end= 0:09:24
- what is the difference between a sound wave and a speech recognition system?
-<utterance number= 137 start=0:09:24 end= 0:09:28
- And another task that neural nets are now very good at is speech recognition.
-<utterance number= 138 start=0:09:28 end= 0:09:32
- Or at least part of a speech recognition system. So speech recognition systems have
-<utterance number= 139 start=0:09:32 end= 0:09:36
- several stages. First they pre-process the sound wave to
-<utterance number= 140 start=0:09:36 end= 0:09:41
- get a vector of acoustic coefficients for each 10 milliseconds of sound wave.
-<utterance number= 141 start=0:09:41 end= 0:09:45
- And so they get a hundred of those vectors per second.
-<utterance number= 142 start=0:09:45 end= 0:09:50
- They then take a few adjacent vectors of acoustic coefficients, and they need to
-<utterance number= 143 start=0:09:50 end= 0:09:55
- place bets on which part of which phoneme is being spoken. So they look at this
-<utterance number= 144 start=0:09:55 end= 0:09:59
- little window, and they say in the middle of this window, what do I think the
-<utterance number= 145 start=0:09:59 end= 0:10:04
- phoneme is, and which part of the phoneme is it? And a good speech recognition
-<utterance number= 146 start=0:10:04 end= 0:10:09
- system will have many alternative models for a phoneme. And each model it might
-<utterance number= 147 start=0:10:09 end= 0:10:14
- have three different parts. So it might have many thousands of alternative
-<utterance number= 148 start=0:10:14 end= 0:10:18
- fragments that it thinks this might be. And you have to place bets on all those
-<utterance number= 149 start=0:10:18 end= 0:10:19
- thousands of alternatives.
-<utterance number= 150 start=0:10:20 end= 0:10:25
- And then once you place those bets, you have a decoding stage that does the best
-<utterance number= 151 start=0:10:25 end= 0:10:32
- job it can of using plausible bets, but piecing them together into a sequence of
-<utterance number= 152 start=0:10:32 end= 0:10:37
- bets that corresponds to the kinds of things that people say.
-<utterance number= 153 start=0:10:37 end= 0:10:44
- Currently, deep neural networks pioneered by George Dahl and Abdul Rahman,
-<utterance number= 154 start=0:10:44 end= 0:10:48
- Mohammed, at the University of Toronto, are doing better than previous machine
-<utterance number= 155 start=0:10:48 end= 0:10:50
- learning methods for the economy.
-<utterance number= 156 start=0:10:50 end= 0:10:53
- They're now using the acoustic model, and they're now beginning to be used in
-<utterance number= 157 start=0:10:53 end= 0:11:04
- practical systems. So Dahl and Mohammed developed a system that uses many layers
+ <utterance number= 85 start=0:09:20 end= 0:09:25
+ Another task that you're on that's an I very good at is speech recognition.
+<utterance number= 86 start=0:09:25 end= 0:09:28
+ Or at least part of a speech recognition system.
+<utterance number= 87 start=0:09:28 end= 0:09:32
+ So speech recognition systems have several stages.
+<utterance number= 88 start=0:09:32 end= 0:09:41
+ First they pre-process the sound wave to get a vector of acoustic coefficients for each 10 milliseconds of sound wave.
+<utterance number= 89 start=0:09:41 end= 0:09:44
+ And so they get 100 of those vectors per second.
+<utterance number= 90 start=0:09:45 end= 0:09:48
+ They then take a few adjacent vectors of acoustic coefficients.
+<utterance number= 91 start=0:09:48 end= 0:09:54
+ And they need to place bets on which part of which phoneme is being spoken.
+<utterance number= 92 start=0:09:54 end= 0:10:02
+ So they look at this little window and they say in the middle of this window, what do I think the phoneme is and which part of the phoneme is it?
+<utterance number= 93 start=0:10:02 end= 0:10:08
+ And a good speech recognition system will have many alternative models for a phoneme.
+<utterance number= 94 start=0:10:08 end= 0:10:11
+ And each model it might have three different parts.
+<utterance number= 95 start=0:10:11 end= 0:10:16
+ So it might have many thousands of alternative fragments that it thinks this might be.
+<utterance number= 96 start=0:10:16 end= 0:10:21
+ And you have to place bets on all those thousands of alternatives.
+<utterance number= 97 start=0:10:21 end= 0:10:29
+ And then once you place those bets, you have a decoding stage that does the best job it can of using plausible bets,
+<utterance number= 98 start=0:10:29 end= 0:10:39
+ but piecing them together into a sequence of bets that corresponds to the kinds of things that people say.
+<utterance number= 99 start=0:10:40 end= 0:10:46
+ Currently deep neural networks pioneered by George Darwin, Abdul Rahman, Muhammad at the University of Toronto,
+<utterance number= 100 start=0:10:46 end= 0:10:51
+ are doing better than previous machine learning methods for the acoustic model.
+<utterance number= 101 start=0:10:51 end= 0:10:55
+ And then I begin to be used in practical systems.
 
 </utterance>
 </scene>
