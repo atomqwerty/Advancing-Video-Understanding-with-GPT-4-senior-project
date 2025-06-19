@@ -8,9 +8,10 @@ from datetime import datetime, timedelta, time
 from bert_score import score
 from deepeval.metrics import FaithfulnessMetric
 from deepeval.test_case import LLMTestCase
-
-API_URL = "http://flowise.northanapon.com/api/v1/prediction/3a312645-f937-4292-b8c9-fe8c309df590"
+API_URL = "http://flowise.northanapon.com/api/v1/prediction/xxxxxxxx-xxxx-xxxx-xxxxxxxxxxxx"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")  # Load API key securely
+
+csvpath='QA_20-2.csv'
 
 def deep_eval(question, response,rag):
     test_case=LLMTestCase(
@@ -58,7 +59,7 @@ def query(payload):
         return ""
 
 # Read the CSV file
-with open('QA_20-2.csv', 'r') as file:
+with open(csvpath, 'r') as file:
     next(file)  # Skip header
     csv_reader = csv.reader(file)
     eva = "Number,ground truth time,Answer,Answer time,IOU,Precision,Start Difference,BERT Precision,BERT Recall,BERT F1,DeepEval Faithfulness Score\n"
