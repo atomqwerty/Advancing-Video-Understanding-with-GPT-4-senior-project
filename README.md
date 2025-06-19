@@ -79,7 +79,7 @@ Then, after we upsert Promt file, we can start chatting with our chatbot
 
 To run Evaluate, put your flowise api in eva.py
 ```bash
-API_URL = "http://flowise.com/api/v1/prediction/xxxxxxx"
+API_URL = "http://flowise.com/api/v1/prediction/xxxxxxxx-xxxx-xxxx-xxxxxxxxxxxx"
 ```
 And prepare CSV Question and Anwser file in this format 
 ```bash
