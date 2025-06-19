@@ -12,8 +12,6 @@ import tools_OCRandTextCombineder as T_OCR
 
 # Step 4: Generate Clip-Level Video Descriptions
 
-# Step 6: Generate a Persona using GPT-4
-
 # Example usage
 if __name__ == "__main__":
     video_path = 'Video/Neural Networks for Machine Learning/Lecture 1.1.mp4'
@@ -30,24 +28,10 @@ if __name__ == "__main__":
     clip_paths = T_sceneDet.split_video(video_path, scenes, output_dir)
 
     # Step 3: Speech Recognition using Whisper-Timestamped
-    # transcript = T_speechRec.speech_recognition(video_path, json_path)
-    # print("transcript:",transcript)
-    # Skip step 3
-    transcript = T_speechRec.skip_speech_recognition(json_path)
+    transcript = T_speechRec.speech_recognition(video_path, json_path)
 
 #=======================adjustable======================
-    # Step 4.1: Generate Clip Descriptions tesseract
-    # clip_descriptions = T_OCR.clip_ocr_tes(output_dir, transcript ,scenes,video_path.split('/'),prompt_path)
-    # Step 4.2: Generate Clip Descriptions google
+    # Step 4: Generate Clip Descriptions google
     clip_descriptions = T_OCR.clip_ocr_google(output_dir, transcript ,scenes,video_path.split('/'),prompt_path)
 #=======================================================
-
-    # print("Clip Descriptions:", clip_descriptions)
-    # # write_txt(clip_descriptions,"clip_descriptions")
     
-    # # Step 6: Create Persona
-    # T_OCR.write_txt(clip_descriptions,prompt_path+'\\promt')
-    # Step 7: Chat
-    # Model.main("Text_output")
-    # clear clips
-    # T_sceneDet.clear_dir(output_dir)
